@@ -43,8 +43,7 @@ Click on a quest and follow the instructions to get started.
 
 [![Static Badge](https://img.shields.io/badge/Quest-I_want_to_build_an_AI_Agent-violet)](../../issues/new?title=Quest:+I+want+to+build+an+agent&labels=quest&body=%F0%9F%A4%96+Let%27s+build+an+AI+agent+that+can+help+and+interact+with+users%21+Excited+for+this+step%21%0A%0A**Please+wait+about+15+seconds.+This+issue+will+automatically+close+and+the+README+will+update+with+your+next+instructions.**)
 
-[![Static Badge](https://img.shields.io/badge/Quest-I_want_to_explore_frameworks-yellow)](../../issues/new?title=Quest:+I+want+to+explore+frameworks&labels=quest&body=🛠️+Let%27s+explore+frameworks+and+build+something+amazing%21+Excited+to+learn+and+experiment%21%0A%0A**Please+
-wait+about+15+seconds.+This+issue+will+automatically+close+and+the+README+will+update+with+your+next+instructions.**)
+[![Static Badge](https://img.shields.io/badge/Quest-I_want_to_explore_frameworks-yellow)](../../issues/new?title=Quest:+I+want+to+explore+frameworks&labels=quest&body=🛠️+Let%27s+explore+frameworks+and+build+something+amazing%21+Excited+to+learn+and+experiment%21%0A%0A**Please+wait+about+15+seconds.+This+issue+will+automatically+close+and+the+README+will+update+with+your+next+instructions.**)
 
 [![Static Badge](https://img.shields.io/badge/Quest-I_want_to_use_MCP_tools-cyan)](../../issues/new?title=Quest:+I+want+to+use+MCP+tools&labels=quest&body=🔧+Time+to+dive+into+MCP+tools%21+Let%27s+get+started%21%0A%0A**Please+wait+about+15+seconds.+This+issue+will+automatically+close+and+the+README+will+update+with+your+next+instructions.**)
 
