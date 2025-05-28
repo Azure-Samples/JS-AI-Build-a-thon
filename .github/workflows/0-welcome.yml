@@ -64,9 +64,9 @@ jobs:
           elif [[ "$TITLE" == *"create templates"* ]]; then
             echo "quest=8" >> $GITHUB_OUTPUT
             echo "to_step=8" >> $GITHUB_OUTPUT
-          # elif [[ "$TITLE" == *"build an agent"* ]]; then
-          #   echo "quest=9" >> $GITHUB_OUTPUT
-          #   echo "to_step=9" >> $GITHUB_OUTPUT
+          elif [[ "$TITLE" == *"build an agent"* ]]; then
+            echo "quest=9" >> $GITHUB_OUTPUT
+            echo "to_step=9" >> $GITHUB_OUTPUT
           # elif [[ "$TITLE" == *"search the internet"* ]]; then
           #   echo "quest=10" >> $GITHUB_OUTPUT
           #   echo "to_step=10" >> $GITHUB_OUTPUT

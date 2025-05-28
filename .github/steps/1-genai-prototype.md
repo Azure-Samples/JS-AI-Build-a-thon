@@ -3,7 +3,7 @@
 
 > To reset your progress and select a different quest, click this button:
 >
-> [![Reset Progress](https://img.shields.io/badge/Reset--Progress-ff3860?logo=mattermost)](../../issues/new?title=Reset+Progress:+Back+to+Welcome&labels=reset&body=🔄+I+want+to+reset+my+progress+and+go+back+to+the+Welcome+page.%0A%0A**Please+click+on+Create+below,+then+wait+about+15+seconds.+Your+progress+will+be+reset,+this+issue+will+automatically+close,+and+you+will+be+taken+back+to+the+Welcome+page+to+select+a+new+quest.**)
+> [![Reset Progress](https://img.shields.io/badge/Reset--Progress-ff3860?logo=mattermost)](../../issues/new?title=Reset+Progress:+Back+to+Welcome&labels=reset&body=🔄+I+want+to+reset+my+progress+and+go+back+to+the+Welcome+page.%0A%0A**Please+wait+about+15+seconds.+Your+progress+will+be+reset,+this+issue+will+automatically+close,+and+you+will+be+taken+back+to+the+Welcome+page+to+select+a+new+quest.**)
 
 ## 📋 Pre-requisites
 
@@ -207,7 +207,7 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
     
 > To skip this quest and select a different one, click this button:
 >
-> [![Skip to another quest](https://img.shields.io/badge/Skip--to--another--quest-ff3860?logo=mattermost)](../../issues/new?title=Skip+Quest:+Back+to+Welcome&labels=reset&body=🔄+I+want+to+skip+this+quest+and+go+back+to+the+Welcome+page.%0A%0A**Please+click+on+Create+below,+then+wait+about+15+seconds.+Your+progress+will+be+reset,+this+issue+will+automatically+close,+and+you+will+be+taken+back+to+the+Welcome+page+to+select+a+new+quest.**)
+> [![Skip to another quest](https://img.shields.io/badge/Skip--to--another--quest-ff3860?logo=mattermost)](../../issues/new?title=Skip+Quest:+Back+to+Welcome&labels=reset&body=🔄+I+want+to+skip+this+quest+and+go+back+to+the+Welcome+page.%0A%0A**Please+wait+about+15+seconds.+Your+progress+will+be+reset,+this+issue+will+automatically+close,+and+you+will+be+taken+back+to+the+Welcome+page+to+select+a+new+quest.**)
 
 ## 📚 Further Reading
 
