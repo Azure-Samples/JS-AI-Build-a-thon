@@ -26,7 +26,7 @@ With GitHub Models, you can use GitHub Personal Access Tokens (PAT) to authentic
 
 2. Click on **explore the full model catalog** to see the available models.
 
-    ![GH Models full catalog](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/ghm-full-catalog.png?raw=true)
+    ![GH Models full catalog](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ghm-full-catalog.png?raw=true)
 
     You will see a broad range of models listed in the catalog.
 
@@ -42,17 +42,17 @@ With GitHub Models, you can use GitHub Personal Access Tokens (PAT) to authentic
     - **Model Abstract:** A brief description of the model and its capabilities.
     - **Model Architecture:** The data used to train the model and their modalities for input and output _(text-image pairs)_, the model size _(parameters)_, model context length _(how much text the model can process at once)_, training date _(knowledge cut-off date/data freshness for the model)_, supported languages,  and more.
   
-      ![Model Architecture](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/model-readme.png?raw=true)
+      ![Model Architecture](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-readme.png?raw=true)
 
     ### B. Transparency Note
     - **Model Use cases:** Primary and out-of-scope use cases for the model, responsible AI considerations, content filtering configurations and more.
   
-      ![Model Transparency notice](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/model-transparency-notice.png?raw=true)
+      ![Model Transparency notice](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-transparency-notice.png?raw=true)
 
     ### C. License 
     - **Model License:** The license under which the model is released, including any restrictions on use or distribution.
 
-      ![Model License notice](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/model-license.png?raw=true)
+      ![Model License notice](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-license.png?raw=true)
 
     ### D. Evaluation Report
     - **Model Benchmarks:** A summary of the model's performance on various benchmarks, including accuracy, speed, and other relevant metrics.
@@ -61,23 +61,23 @@ With GitHub Models, you can use GitHub Personal Access Tokens (PAT) to authentic
       - DROP - _Measures reading comprehension and numerical reasoning capabilities_
       - among others
 
-      ![Model Evaluation](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/model-evaluation.png?raw=true)
+      ![Model Evaluation](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-evaluation.png?raw=true)
 
 5. After selecting a model and reviewing the model card, you can use the **Playground** to experiment with the model. The playground provides a user-friendly interface for testing the model's capabilities and understanding how it works.
 
-    ![Playground button](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/model-playground-button.png?raw=true)
+    ![Playground button](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-playground-button.png?raw=true)
 
     You can directly send questions (prompts) to the model and see how it responds. Throughout the session, you can monitor the token usage and the model's response time at the top of the chat UI.
 
-    ![Playground token usage note](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/playground-token-usage.png?raw=true)
+    ![Playground token usage note](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/playground-token-usage.png?raw=true)
 
 6. To check your token usage against your GitHub Models free quota (input/ output tokens, latency), click on the **Input: Output: Time** note at the top right of the chat UI to open Model usage insights.
 
-    ![Playground token usage card](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/model-usage-insights.png?raw=true)
+    ![Playground token usage card](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-usage-insights.png?raw=true)
 
 7. Before going further, on the right side of the playground, switch from **Details** to **Parameters** to see the available parameters that you can adjust to change the model's behavior. 
 
-    ![Playground parameters](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/model-parameters.png?raw=true)
+    ![Playground parameters](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-parameters.png?raw=true)
 
     The parameters include:
     - **Max Tokens:** The maximum number of tokens the model can generate in response to a prompt. Adjusting this parameter can help control the length of the model's output. 
@@ -95,13 +95,13 @@ With GitHub Models, you can use GitHub Personal Access Tokens (PAT) to authentic
 
     Click on the **Compare** button at the top right of the playground.
 
-    ![Compare](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/compare-button.png?raw=true)
+    ![Compare](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/compare-button.png?raw=true)
 
     Select the models you want to compare from the list of available models from the drop-down.
 
     This will open a chat UI for the selected models side by side, and your prompt will be sent to both models. 
 
-    ![Compare chat example](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/compare-chat.png?raw=true)
+    ![Compare chat example](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/compare-chat.png?raw=true)
 
     In the example provided, you can compare the performance of a reasoning model and a conversation model on the same prompt to understand their strengths and limitations.
 
@@ -130,18 +130,18 @@ Now that you have a better understanding of the models from the GitHub Models pl
 
 1. On the far right, click on **Use this model** and select **Language: JavaScript** and **SDK: Azure AI Inference SDK**. 
 
-    ![Use model](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/use-this-model-button.png?raw=true)
+    ![Use model](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/use-this-model-button.png?raw=true)
 
     Follow the instructions provided to:
     - Get a free developer key, (Personal Access Token (classic)) and store it in an environment variable either using bash, PowerShell or command line.
     - Install dependencies 
     - Run basic code sample. **Ensure your local file is named `sample.js`**
 
-      ![Run node sample file](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/node-sample.png?raw=true)
+      ![Run node sample file](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/node-sample.png?raw=true)
 
 ## 📌 Exercise: Convert a hand-drawn sketch to a web page
 
-1. Download the contoso website hand-drawn sketch from [this link](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/contoso_layout_sketch.jpg), and save it `contoso_layout_sketch.jpg` in the same directory as your `sample.js` file.
+1. Download the contoso website hand-drawn sketch from [this link](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/contoso_layout_sketch.jpg), and save it `contoso_layout_sketch.jpg` in the same directory as your `sample.js` file.
 
     > **Note**
     >
@@ -152,11 +152,11 @@ Now that you have a better understanding of the models from the GitHub Models pl
       > **Note**
       > You can use [GitHub Copilot](https://github.com/features/copilot) to help you with this task.
       >
-      > ![Update code with GitHub Copilot](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/github-copilot.png?raw=true)
+      > ![Update code with GitHub Copilot](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/github-copilot.png?raw=true)
 
   3. Run the code and check the output in the console.
 
-      ![Run sample passing image](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/run-sample-for-code.png?raw=true)
+      ![Run sample passing image](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/run-sample-for-code.png?raw=true)
 
 ## 🧰 Use AI Toolkit in VS Code
 
@@ -166,7 +166,7 @@ The AI Toolkit in Visual Studio Code is a powerful extension that provides a set
 
 2. Similar to GitHub Models, with the AI Toolkit now installed, you can browse through the catalog of available models, and use the **Playground** to experiment with the models, all on VS Code.
 
-    ![AI Toolkit catalog](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/ai-toolkit.png?raw=true)
+    ![AI Toolkit catalog](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/ai-toolkit.png?raw=true)
 
     Let's execute the exercise above using the AI Toolkit in VS Code.
 
@@ -176,13 +176,13 @@ The AI Toolkit in Visual Studio Code is a powerful extension that provides a set
 
 4. On the generated code, click on the **New file** icon to copy the generated code into a new file. Save it as `index.html` in the same directory as your `sample.js` file.
 
-    ![AI Toolkit -html](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/ai-toolkit-html.png?raw=true)
+    ![AI Toolkit -html](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/ai-toolkit-html.png?raw=true)
 
     Do the same for the CSS code and save it as `style.css` in the same directory.
 
     You can preview the generated code and iterate on the code to improve it (optionally using GitHub Copilot).
 
-    ![AI Toolkit - html preview](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/html-preview.png?raw=true)
+    ![AI Toolkit - html preview](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/html-preview.png?raw=true)
 
 ## ✅ Activity: Push `sample.js` code to your repository
 
