@@ -6,6 +6,8 @@
 
 9 Unique Hands-On Quests for JS/ TS Developers to Build AI Apps on Azure AI Foundry, and gain a deeper understanding of AI Technologies, Tools and Frameworks.
 
+[Register for the online JS AI Build-a-thon Event Series](https://aka.ms/JSAIBuild-a-thon)
+
 </header>
 
 - **👩‍💻 Who this is for:** Developers &#8594; AI Engineers
@@ -45,7 +47,7 @@
 
 To find an _In-Person_ or _Virtual_ Study Jam and Connect with other developers, join the Azure AI Community Discord.
 
-[![Join Azure AI Community Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)
+[![Join Azure AI Community Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/JSAIonDiscord)
 
 &copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
