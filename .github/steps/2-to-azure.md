@@ -122,4 +122,9 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 Here are some additional resources to help you learn more about getting started with Azure AI Foundry and deploying models:
 
 - [Azure AI Foundry Extension for Visual Studio Code is Available in Preview](https://devblogs.microsoft.com/foundry/azure-ai-foundry-vscode-extension-preview/)
+- [Work with the Azure AI Foundry for Visual Studio Code extension docs](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/get-started-projects-vs-code)
+- [📹 DEM500: Prototype, build, and deploy AI apps quickly with GitHub Models](https://build.microsoft.com/en-US/sessions/DEM500?source=sessions)
+- [📹 BRK107: Develop, Build and Deploy LLM Apps using GitHub Models and Azure AI Foundry](https://build.microsoft.com/en-US/sessions/BRK107?source=sessions)
+- [Build with the AI Foundry JavaScript SDK](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-javascript)
 <!-- - [JavaScript SDK for Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview?tabs=sync&pivots=programming-language-python) -->
+- A curated set of essential extensions for building generative AI applications and agents in Visual Studio Code. Install [the Microsoft AI Tools Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.microsoft-ai-tools-pack)

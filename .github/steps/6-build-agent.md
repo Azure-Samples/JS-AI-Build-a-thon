@@ -490,3 +490,6 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 Here are some additional resources to help you learn more about building AI agents and extending their capabilities with tools:
 - [Azure AI Agents JavaScript examples](https://github.com/Azure-Samples/azure-ai-agents-javascript)
+- [Your First AI Agent in JS with Azure AI Agent Service](https://www.youtube.com/live/RNphlRKvmJQ?si=I3rUp-LmnvS008ym)
+- [Create a new Agent - JS/TS](https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=programming-language-javascript)
+- [📹 DEMFP781: From Prompt to Product: Build an AI Agent That Generates UI](https://build.microsoft.com/en-US/sessions/DEMFP781?source=sessions)
