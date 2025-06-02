@@ -337,3 +337,7 @@ Here are some additional resources to help you learn more about tools used in th
 - https://vite.dev/
 - https://lit.dev/
 - [Accelerate your journey to the cloud with azd](https://azure.github.io/awesome-azd/getting-started)
+- [📹 BRK118: Accelerate Azure Development with GitHub Copilot, VS Code & AI](https://build.microsoft.com/en-US/sessions/BRK118?source=sessions)
+- [Introducing the Azure Developer CLI (azd): A faster way to build apps for the cloud blog](https://devblogs.microsoft.com/azure-sdk/introducing-the-azure-developer-cli-a-faster-way-to-build-apps-for-the-cloud/)
+- [Azure Developer CLI (azd) on GitHub](https://github.com/Azure/azure-dev)
+- [Azure Developer CLI (azd) documentation](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)

@@ -231,3 +231,4 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 Here are some additional resources to help you learn more about LangChain.js and its features:
 - [Serverless AI Chat with RAG using LangChain.js sample](https://github.com/Azure-Samples/serverless-chat-langchainjs)
+- [LangChain.js docs](https://js.langchain.com/docs/introduction/)
