@@ -4,7 +4,7 @@
 
 ### 🤖 AI June Jams with JavaScript
 
-9 Unique Hands-On Quests for JS/ TS Developers to Build AI Apps on Azure AI Foundry, and gain a deeper understanding of AI Technologies, Tools and Frameworks.
+10 Unique Hands-On Quests for JS/ TS Developers to Build AI Apps on Azure AI Foundry, and gain a deeper understanding of AI Technologies, Tools and Frameworks.
 
 ✨ [Register for the online JS AI Build-a-thon Event Series](https://aka.ms/JSAIBuild-a-thon) ✨
 
@@ -19,6 +19,7 @@
    - 📊 Connect to external data with RAG, add conversation history with **LangChain.js**
    - 🤖 Build an AI Agent with **Azure AI Foundry Extension**
    - 🧰 Extend Agent with MCP Tools using the **AI Toolkit Extension**
+   - ⚡ Automate your dev workflows with **GitHub Models** and **GenAIScript** _(NO AZURE ACCOUNT NEEDED)_
 
 ## 🏁 How to get started
 

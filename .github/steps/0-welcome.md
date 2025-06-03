@@ -16,6 +16,7 @@ This is a hands-on experience designed for you to work through a series of quest
 - LangChain.js
 - Azure AI Agents Service
 - MCP Tools
+- Automation with GenAIScript
 
 ## 🗺️ How it works
 
@@ -48,5 +49,7 @@ Click on a quest and follow the instructions to get started.
 [![Static Badge](https://img.shields.io/badge/Quest-I_want_to_use_MCP_tools-cyan)](../../issues/new?title=Quest:+I+want+to+use+MCP+tools&labels=quest&body=🔧+Time+to+dive+into+MCP+tools%21+Let%27s+get+started%21%0A%0A**Please+wait+about+15+seconds.+This+issue+will+automatically+close+and+the+README+will+update+with+your+next+instructions.**)
 
 [![Static Badge](https://img.shields.io/badge/Quest-I_want_to_create_templates-pink)](../../issues/new?title=Quest:+I+want+to+create+templates&labels=quest&body=📄+Let%27s+create+templates+to+streamline+future+projects%21+Excited+to+design+and+build%21%0A%0A**Please+wait+about+15+seconds.+This+issue+will+automatically+close+and+the+README+will+update+with+your+next+instructions.**)
+
+[![Static Badge](https://img.shields.io/badge/Quest-I_want_to_automate_code_reviews-crimson)](../../issues/new?title=Quest:+I+want+to+automate+code+reviews&labels=quest&body=📄+Let%27s+use+AI+to+review+your+code%21%0A%0A**Please+click+on+Create+below,+then+wait+about+15+seconds.+This+issue+will+automatically+close+and+the+README+will+update+with+your+next+instructions.**)
 
 
