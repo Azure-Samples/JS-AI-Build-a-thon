@@ -6,7 +6,7 @@
 
 9 Unique Hands-On Quests for JS/ TS Developers to Build AI Apps on Azure AI Foundry, and gain a deeper understanding of AI Technologies, Tools and Frameworks.
 
-[Register for the online JS AI Build-a-thon Event Series](https://aka.ms/JSAIBuild-a-thon)
+✨ [Register for the online JS AI Build-a-thon Event Series](https://aka.ms/JSAIBuild-a-thon) ✨
 
 </header>
 
