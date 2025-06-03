@@ -96,7 +96,7 @@ Currently, the chat model does not remember previous messages. For example, if y
 
 Then ask the model _"Quiz time. What's my name?"_. The model will not remember your name because your name is not passed to the model in the prompt.
 
-![Memory test](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/memory-test.png?raw=true)
+![Memory test](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/memory-test.png?raw=true)
 
 To add memory, you will use LangChain's built-in memory modules - `ChatMessageHistory` and `ConversationSummaryMemory`. Conversation memory allows the AI to reference previous exchanges in a session, enabling more context-aware and coherent responses and LangChain.js provides built-in memory modules that make this easy to implement. With LangChain, you can implement stateful AI app experiences without manually managing chat logs, and you can easily switch between in-memory, Redis, or other storage options.
 
@@ -201,7 +201,7 @@ app.post("/chat", async (req, res) => {
 
 To test this, open the chat UI in your browser and send a message like _"Hey, you can call me Terry. What should I call you?"_ and then ask _"Quiz time. What's my name?"_. The model should remember your name.
 
-  ![Memory test passed](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/memory-test-passed.png?raw=true)
+  ![Memory test passed](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/memory-test-passed.png?raw=true)
 
 ## ✅ Activity: Push your updated code to the repository
 

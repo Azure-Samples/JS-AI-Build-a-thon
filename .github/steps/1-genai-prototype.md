@@ -152,11 +152,11 @@ Now that you have a better understanding of the models from the GitHub Models pl
       > **Note**
       > You can use [GitHub Copilot](https://github.com/features/copilot) to help you with this task.
       >
-      > ![Update code with GitHub Copilot](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/github-copilot.png?raw=true)
+      > ![Update code with GitHub Copilot](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/github-copilot.png?raw=true)
 
   3. Run the code and check the output in the console.
 
-      ![Run sample passing image](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/run-sample-for-code.png?raw=true)
+      ![Run sample passing image](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/run-sample-for-code.png?raw=true)
 
 ## 🧰 Use AI Toolkit in VS Code
 
@@ -166,7 +166,7 @@ The AI Toolkit in Visual Studio Code is a powerful extension that provides a set
 
 2. Similar to GitHub Models, with the AI Toolkit now installed, you can browse through the catalog of available models, and use the **Playground** to experiment with the models, all on VS Code.
 
-    ![AI Toolkit catalog](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/ai-toolkit.png?raw=true)
+    ![AI Toolkit catalog](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-toolkit.png?raw=true)
 
     Let's execute the exercise above using the AI Toolkit in VS Code.
 
@@ -176,13 +176,13 @@ The AI Toolkit in Visual Studio Code is a powerful extension that provides a set
 
 4. On the generated code, click on the **New file** icon to copy the generated code into a new file. Save it as `index.html` in the same directory as your `sample.js` file.
 
-    ![AI Toolkit -html](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/ai-toolkit-html.png?raw=true)
+    ![AI Toolkit -html](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-toolkit-html.png?raw=true)
 
     Do the same for the CSS code and save it as `style.css` in the same directory.
 
     You can preview the generated code and iterate on the code to improve it (optionally using GitHub Copilot).
 
-    ![AI Toolkit - html preview](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/js-ai-journey-assets/html-preview.png?raw=true)
+    ![AI Toolkit - html preview](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/html-preview.png?raw=true)
 
 ## ✅ Activity: Push `sample.js` code to your repository
 

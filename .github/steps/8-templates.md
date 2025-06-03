@@ -59,11 +59,11 @@ The key to identifying the right template for your project is to understand the 
 Then:-
 1. Visit the [AI app template](https://azure.github.io/ai-app-templates/?tags=javascript&tags=typescript) gallery to browse through the available templates.
 
-    ![AI App templates](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/ai-templates.png?raw=true)
+    ![AI App templates](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ai-templates.png?raw=true)
 
 2. Once you have identified a template that meets your needs, click on it to view the details and find instructions on how to use it.
 
-    ![Gen AI chat frontend templates](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/genai-chat-frontend-template.png?raw=true)
+    ![Gen AI chat frontend templates](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/genai-chat-frontend-template.png?raw=true)
 
 Some of the popular templates for JavaScript developers are:-
 - [Serverless GenAI assistant with LangChain](https://azure.github.io/ai-app-templates/repo/azure-samples/serverless-chat-langchainjs/)
