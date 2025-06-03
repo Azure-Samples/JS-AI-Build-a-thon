@@ -32,7 +32,7 @@ To use GenAIScript with GitHub Models, you need to set up a GitHub token.
 
 1. Open [this link](https://github.com/marketplace/models/azure-openai/gpt-4-1/playground) in a new tab and click on the **Use this model** button.
 
-    ![Use model](TODO)
+    ![Use model](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/use-gh-model.png?raw=true)
 
     Follow the instructions provided to get a free developer key, named Personal Access Token (classic).
 
@@ -81,7 +81,7 @@ git add .
 
 Then while your `code-review.genai.js` file is open, select the **Run GenAIScript** button at the top right corner of the editor, or use the command palette (Ctrl+Shift+P) and type `GenAIScript: Run Script`.
 
-![Run GenAIScript button](TODO)
+![Run GenAIScript button](https://github.com/juliamuiruri4/JS-Journey-to-AI-Foundry/blob/assets/js-ai-journey-assets/run-genaiscript.png?raw=true)
 
 You should then see a new tab open with the AI's code review feedback. It should point out a few things since the model has no knowledge of GenAIScript here, but you can use this as a starting point. Experiment with tweaking the prompt to get more specific feedback based on your coding standards and practices.
 
