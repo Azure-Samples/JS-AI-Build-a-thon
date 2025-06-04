@@ -12,6 +12,9 @@
 
 ## 📝 Overview
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
+
 You will build an **automated code review system** that uses AI to analyze code changes and provide feedback. This system will help you ensure that your code meets the quality standards best practices of your project, while also learning how to use AI to automate some of your development tasks.
 
 ## 🧠 Use GenAIScript in VS Code
@@ -102,13 +105,13 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 2.  After pushing your changes, **WAIT ABOUT 15 SECONDS FOR GITHUB ACTIONS TO UPDATE YOUR README**.
 
-**Checklist**
-
-[![Complete Quest](https://img.shields.io/badge/Complete--Quest-ff3860?logo=esbuild)](/issues/new?title=Quest:+I+want+a+Production-Ready+Template+to+customize&labels=quest&body=🚀+I%27ve+browsed+through+the+AI+App+Template+gallery%21%0A%0A**After+you+click+on+Create+below,+wait+about+15+seconds.+This+issue+will+automatically+close,+and+the+README+will+update+with+your+next+instructions.**)
+> To skip this quest and select a different one, click this button:
+>
+> [![Skip to another quest](https://img.shields.io/badge/Skip--to--another--quest-ff3860?logo=mattermost)](../../issues/new?title=Skip+quest&labels=reset-quest&body=🔄+I+want+to+reset+my+AI+learning+quest+and+start+from+the+beginning.%0A%0A**Please+wait+about+15+seconds.+Your+progress+will+be+reset,+this+issue+will+automatically+close,+and+you+will+be+taken+back+to+the+Welcome+step+to+select+a+new+quest.**)
 
 ## 📚 Further Reading
 
-Here are some additional resources to help you learn more about the Azure Developer CLI (azd) and the templates available:
+Here are some additional resources to help you learn more about GenAIScript:
 
 - [More automation ideas with GenAIScript sample collection](https://microsoft.github.io/genaiscript/samples/)
 - [Learn about Generative AI with JavaScript on YouTube](https://aka.ms/genai-js)

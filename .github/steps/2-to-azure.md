@@ -20,24 +20,27 @@ In this step, you will learn how to deploy your AI model to Azure AI Foundry aft
 
 - You have already completed the previous steps in this project and have opened the **model playground on GitHub Models.**
 
-## 🧠 GitHub Models to Azure AI Foundry
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
 
-‼️ The following steps on GitHub Models should be in A SEPARATE BROWSER TAB. Keep this tab open for reference.
+## 🧠 GitHub Models to Azure AI Foundry
+> [!Note]
+> The following steps on GitHub Models should be in A SEPARATE BROWSER TAB. Keep this tab open for reference.
 
 1. On the separate tab on the GitHub models playground, click on **Use this model** and select **Language: JavaScript** and **SDK: Azure AI Inference  SDK**. 
 
-   ![Use model](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/use-this-model-button.png?raw=true)
+   ![Use model](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/use-this-model-button.png?raw=true)
 
 2. Under **Create a personal access token**, select **Get production key** and this will take you to ai.azure.com and prompt you to:-
    - Sign in to your Azure account
    - Select your Azure subscription 
    - Deploy model
 
-      ![Select subscription](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ai-foundry-select-subscription.png?raw=true)
+      ![Select subscription](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-foundry-select-subscription.png?raw=true)
 
 3. The model you selected will be pre-populated in the **Deployment name** field. You can optionally click on **Customize** to change the default configuration on deployment type, model version, tokens per minute (TPM) rate limit etc.
 
-      ![Customize model for deployment](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/deploy-model.png?raw=true)
+      ![Customize model for deployment](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/deploy-model.png?raw=true)
 
 ## 🧰 AI Foundry VS Code Extension
 
@@ -47,15 +50,15 @@ To continue working with your deployed model in VS Code, you will need to instal
 
 2. Once installed, click on the **AI Foundry** icon in the left sidebar and click on **Set Default Project**. Select your project and expand the **Models** section. You should see your deployed model(s) listed there.
 
-      ![Set default project](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/set-default-project.png?raw=true)
+      ![Set default project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/set-default-project.png?raw=true)
 
 3. Click on the model name to open the model details view, where you can see the model's metadata, including the model version, deployment status, and TPM rate limit.
 
-      ![List of models](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/model-list.png?raw=true)
+      ![List of models](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/model-list.png?raw=true)
 
 4. Right click on your model and select **Open in Playground**. This will open a tab in VS Code with a chat Playground, where you can test your deployed model.
 
-      ![AI Foundry playground](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ai-foundry-playground.png?raw=true)
+      ![AI Foundry playground](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-foundry-playground.png?raw=true)
 
 5. You can also use the **Compare** feature to compare the performance of your deployed model with other models for manual evaluation. Once you are happy with the performance of your deployed model, right click on the model and select **Open Code File**, then:
    - Select **SDK**: Azure AI Inference SDK/ Azure OpenAI SDK
@@ -89,7 +92,7 @@ To continue working with your deployed model in VS Code, you will need to instal
 
 8. Finally, run `node ai-foundry.js` and observe the output in the terminal. You should see the response from your deployed model.
 
-   ![AI Foundry sample code](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/run-ai-foundry-sample.png?raw=true)
+   ![AI Foundry sample code](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/run-ai-foundry-sample.png?raw=true)
 
 
 ## ✅ Activity: Push `ai-foundry.js` code to your repository

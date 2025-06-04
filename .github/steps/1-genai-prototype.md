@@ -22,7 +22,8 @@ With GitHub Models, you can use GitHub Personal Access Tokens (PAT) to authentic
 
 1. Right click [GitHub Models](https://github.com/marketplace/models) and open in a new tab
 
-   ‼️ Open the link IN A NEW TAB so you can keep this page open for reference.‼️
+> [!NOTE]  
+> Open the link IN A NEW TAB so you can keep this page open for reference.
 
 2. Click on **explore the full model catalog** to see the available models.
 

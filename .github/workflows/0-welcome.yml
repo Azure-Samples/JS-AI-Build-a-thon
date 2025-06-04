@@ -52,24 +52,21 @@ jobs:
           elif [[ "$TITLE" == *"first AI app with RAG"* ]]; then
             echo "quest=4" >> $GITHUB_OUTPUT
             echo "to_step=4" >> $GITHUB_OUTPUT
-          elif [[ "$TITLE" == *"interact with users"* ]]; then
+          elif [[ "$TITLE" == *"explore frameworks"* ]]; then
             echo "quest=5" >> $GITHUB_OUTPUT
             echo "to_step=5" >> $GITHUB_OUTPUT
-          elif [[ "$TITLE" == *"explore frameworks"* ]]; then
+          elif [[ "$TITLE" == *"build an agent"* ]]; then
             echo "quest=6" >> $GITHUB_OUTPUT
             echo "to_step=6" >> $GITHUB_OUTPUT
           elif [[ "$TITLE" == *"MCP tools"* ]]; then
             echo "quest=7" >> $GITHUB_OUTPUT
             echo "to_step=7" >> $GITHUB_OUTPUT
-          elif [[ "$TITLE" == *"create templates"* ]]; then
+          elif [[ "$TITLE" == *"automate code reviews"* ]]; then
             echo "quest=8" >> $GITHUB_OUTPUT
             echo "to_step=8" >> $GITHUB_OUTPUT
-          elif [[ "$TITLE" == *"build an agent"* ]]; then
+          elif [[ "$TITLE" == *"create templates"* ]]; then
             echo "quest=9" >> $GITHUB_OUTPUT
             echo "to_step=9" >> $GITHUB_OUTPUT
-          # elif [[ "$TITLE" == *"search the internet"* ]]; then
-          #   echo "quest=10" >> $GITHUB_OUTPUT
-          #   echo "to_step=10" >> $GITHUB_OUTPUT
           else
             echo "quest=0" >> $GITHUB_OUTPUT
             echo "to_step=1" >> $GITHUB_OUTPUT

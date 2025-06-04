@@ -21,6 +21,9 @@ In this step, you will learn how to build a basic AI agent using the AI Foundry 
 
 This step assumes you have already completed previous steps and that you have the Azure AI Foundry VS Code extension installed with a default project set up. If you haven't done so, please click the **Reset Progress** button above and start from the _Move AI prototype to Azure_ quest.
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
+
 ## Step 1️⃣: Create an Agent
 
 
@@ -42,7 +45,7 @@ If you used a different region, please [create a new Azure AI Foundry project](h
 
     Click on the AI Foundry icon in the Activity Bar. Under resources, ensure your default AI Foundry project is selected. Hover over the "Agents" section title and click the "+" (Create Agent) icon that appears.
 
-    ![Create Agent Button](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/create-agent.png?raw=true)
+    ![Create Agent Button](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/create-agent.png?raw=true)
 
     You'll be prompted to save the agent's configuration file. Assign the name `my-agent.agent.yaml` and save the file in the agents folder you created earlier. Once saved, the yaml file and the Agent Designer will open for you to configure your agent.
     
@@ -77,7 +80,7 @@ If you used a different region, please [create a new Azure AI Foundry project](h
 
     Click on the **Deploy to Azure AI Foundry** button in the Agent Designer to deploy your agent to Azure AI Foundry Once created, the agent will pop up in the AI Foundry extension under the "Agents" section.
 
-    ![Deploy to Azure AI Foundry Button](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/deploy-to-ai-foundry.png?raw=true)
+    ![Deploy to Azure AI Foundry Button](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/deploy-to-ai-foundry.png?raw=true)
 
 ## Step 2️⃣: Test the Agent in the Playground
 
@@ -87,7 +90,7 @@ Now that you've created and deployed your agent, you can test it in the Playgrou
 
     Right-click on the agent you just created in the "Agents" section and select **Open Playground**. Alternatively, you can expand the "Tools" section and click on "Agent Playground", then select your agent from the list.
 
-    ![Agent Playground in tools](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/agent-playground-in-tools.png?raw=true)
+    ![Agent Playground in tools](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/agent-playground-in-tools.png?raw=true)
 
 2.  **Test the Agent** 
 
@@ -95,12 +98,12 @@ Now that you've created and deployed your agent, you can test it in the Playgrou
     - "Hi there!" 
     - Expect a friendly response with emojis 😎.
 
-      ![Agent Playground](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/agent-playground.png?raw=true)
+      ![Agent Playground](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/agent-playground.png?raw=true)
 
     - Then, try a prompt like _"What's the weather in Nairobi right now?"_
     - Expect a response like "I can't check live weather, but you can check a weather website for the latest updates! 🌤️"
 
-      ![Agent Playground - weather response](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/agent-weather-response.png?raw=true)
+      ![Agent Playground - weather response](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/agent-weather-response.png?raw=true)
 
 The agent currently has limitations including not being able to access real-time information or perform specific tasks. It can only respond based on the instructions and the model's knowledge.
 
@@ -116,7 +119,7 @@ Tools calling is a powerful feature that allows your agent to perform specific t
 
 2. Open the [AI Foundry portal](https://ai.azure.com/), navigate to the left navigation menu towards the bottom, select Management center.
 
-    ![Management Center](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/management-center.png?raw=true)
+    ![Management Center](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/management-center.png?raw=true)
 
 3. In the **Connected resources** section, select **+ New connection**.
 
@@ -124,7 +127,7 @@ Tools calling is a powerful feature that allows your agent to perform specific t
 
 5. In the Connect a Grounding with Bing Search Account window, select **Add connection** next to your Grounding with Bing resource.
 
-    ![Add connection](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/add-connection.png?raw=true)
+    ![Add connection](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/add-connection.png?raw=true)
 
 6. Once connected, click **close**
 
@@ -151,11 +154,11 @@ Save the `bing.yaml` file.
 
 On the Agent Designer, click on the + icon next to the "Tools" section. This will prompt you to select a yaml file for the tool. Select the `bing.yaml` file you created earlier. Click on **Deploy to Azure AI Foundry** to deploy your updated agent with the new tool to Azure AI Foundry.
 
-![Add bing tool via extension](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/add-bing.png?raw=true)
+![Add bing tool via extension](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/add-bing.png?raw=true)
 
 Now that we have added the Bing Search API tool to our agent, we can test it in the Playground. Open the "Agent Playground" and send the agent a message like _"What's the weather in Nairobi right now?"_ The agent should use the Bing Search API tool to fetch the current weather information and respond with a friendly message.
 
-![Weather with Bing](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/weather-with-bing.png?raw=true)
+![Weather with Bing](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-with-bing.png?raw=true)
 
 
 ## Step 4️⃣: Agent playground to Code
@@ -165,7 +168,7 @@ The Agent Playground is a great way to test your agent's capabilities, but it's 
 ### Get Agent code
 Open the **Agent Playground** on the [AI Foundry portal](https://ai.azure.com/) and click on **View Code**. This will show you the code that is used to interact with the agent. 
 
-![View code](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/view-code.png?raw=true)
+![View code](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/view-code.png?raw=true)
 
 Switch to the **JavaScript** tab, copy and paste the code into a new file called `agent.js` in the `packages/webapi` directory of your project. The code will already have the necessary setup for the agent, and will retrieve and display the current thread.
 
@@ -331,7 +334,7 @@ In the render method, between the `Clear Chat button` and the `RAG-toggle compon
   </div>
 ```
 
-![Switch modes](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/switch-modes.png?raw=true)
+![Switch modes](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/switch-modes.png?raw=true)
 
 Update the `RAG toggle` to be disabled when the mode is set to "agent". 
 
@@ -346,7 +349,7 @@ Update the `RAG toggle` to be disabled when the mode is set to "agent".
 </label>
 ```
 
-![Disable RAG toggle in Agent mode](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/disable-rag-toggle.png?raw=true)
+![Disable RAG toggle in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/disable-rag-toggle.png?raw=true)
 
 Let's make the placeholder text conditional based on the selected mode
 
@@ -362,7 +365,7 @@ Let's make the placeholder text conditional based on the selected mode
   />
 ```
 
-![Agent mode placeholder text](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ask-agent.png?raw=true)
+![Agent mode placeholder text](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ask-agent.png?raw=true)
 
 and the message sender display to show 'Agent' instead of 'AI' when the mode is set to 'agent':
 
@@ -370,7 +373,7 @@ and the message sender display to show 'Agent' instead of 'AI' when the mode is 
 <span class="message-sender">${message.role === 'user' ? 'You' : (this.chatMode === 'agent' ? 'Agent' : 'AI')}</span>
 ```
 
-![Agent mode placeholder](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/agent.png?raw=true)
+![Agent mode placeholder](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/agent.png?raw=true)
 
 Add a new method `_handleModeChange` to handle the mode change event after the render method:
 
@@ -460,7 +463,7 @@ On the app, select the **Agent** mode from the dropdown. Type a message in the i
 
 If you ask the agent a question that requires real-time information, such as _"What's the current weather in Spain?"_, the agent should ground its response using the Bing Search API and provide you with the latest information.
 
-![Weather in Spain in Agent mode](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/weather-in-spain.png?raw=true)
+![Weather in Spain in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-in-spain.png?raw=true)
 
 
 ## ✅ Activity: Push your updated code to the repository

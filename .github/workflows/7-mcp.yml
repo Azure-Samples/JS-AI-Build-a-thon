@@ -30,7 +30,7 @@ jobs:
 
     if: >-
       ${{ !github.event.repository.is_template
-          && needs.get_current_step.outputs.current_step == 6 }}
+          && needs.get_current_step.outputs.current_step == 7 }}
 
     runs-on: ubuntu-latest
 
@@ -50,7 +50,7 @@ jobs:
             echo "agent_exists=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Update to step 7
+      - name: Update to step 8
         if: steps.check_node-os-mcp.outputs.node-os-mcp_exists == 'true'
         uses: skills/action-update-step@v2
         with:

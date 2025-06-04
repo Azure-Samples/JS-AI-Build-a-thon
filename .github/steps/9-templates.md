@@ -14,6 +14,9 @@
 
 ## 📝 Overview
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
+
 Throughout all quests in this project, you have been following a minimalistic approach to building functional AI applications. However, in today's fast-paced world of technology, building robust production-ready AI solutions demands the use of the right tools and frameworks, and adoption of industry best practices.
 
 This can be a daunting task, often requiring:-
@@ -59,11 +62,11 @@ The key to identifying the right template for your project is to understand the 
 Then:-
 1. Visit the [AI app template](https://azure.github.io/ai-app-templates/?tags=javascript&tags=typescript) gallery to browse through the available templates.
 
-    ![AI App templates](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ai-templates.png?raw=true)
+    ![AI App templates](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-templates.png?raw=true)
 
 2. Once you have identified a template that meets your needs, click on it to view the details and find instructions on how to use it.
 
-    ![Gen AI chat frontend templates](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/genai-chat-frontend-template.png?raw=true)
+    ![Gen AI chat frontend templates](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/genai-chat-frontend-template.png?raw=true)
 
 Some of the popular templates for JavaScript developers are:-
 - [Serverless GenAI assistant with LangChain](https://azure.github.io/ai-app-templates/repo/azure-samples/serverless-chat-langchainjs/)

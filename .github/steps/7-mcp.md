@@ -17,6 +17,9 @@
 
 This quest will guide you through the process of creating an AI Agent with tools from an MCP (Model Context Protocol) server using the AI Toolkit extension for Visual Studio Code. 
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
+
 ## Step 1️⃣: Add a tool-compatible model
 
 You must first select a model from the model catalog that will power your agent. Note, that **not all models providers support tools**, so you need to ensure that the model you select is compatible with the tools you will use.
@@ -29,7 +32,7 @@ You must first select a model from the model catalog that will power your agent.
 
 3. Click on the **Add** button next to the model you want to use. This will add the model to your workspace (My models).
 
-    ![Add model to workspace](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/add-to-my-models.png?raw=true)
+    ![Add model to workspace](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/add-to-my-models.png?raw=true)
 
 ## Step 2️⃣: Create an agent
 
@@ -37,7 +40,7 @@ The AI Tooklit extension provides a space where you can create and customize you
 
 1. Under the **Tools** tab, click on **Agent (Prompt) Builder** to open the agent builder view.
 
-    ![Agent builder](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/agent-builder.png?raw=true)
+    ![Agent builder](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/agent-builder.png?raw=true)
 
     - a. **Model** - You can select a model to power your agent from the **My models** tab. The **Settings** button next to it allows you to configure the model settings, such as temperature and max tokens.
     - b. **Prompts** - Define the behavior and personality of your agent (System prompt) and where you pass the user input (User prompt). 
@@ -59,13 +62,13 @@ The AI Tooklit extension provides a space where you can create and customize you
 
     > What is my machine type?
 
-    ![OS Patrol prompts](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/os-patrol-prompts.png?raw=true)
+    ![OS Patrol prompts](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/os-patrol-prompts.png?raw=true)
 
 6. Scroll down and leave the **Structure output** format as **text**, then click **Run** to test the agent. 
 
     The agent will respond saying it doesn't have access to your system but will give you instructions on how to check your machine type.
 
-    ![OS Patrol response no tools](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/os-patrol-no-tools.png?raw=true)
+    ![OS Patrol response no tools](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/os-patrol-no-tools.png?raw=true)
 
 ## Step 3️⃣: Add tools to your agent
 
@@ -74,15 +77,15 @@ This next step is where you will add tools to your agent, allowing it to perform
 1. On the **Tools** tab, click on **+ MCP Server**, then select the following
     -  Add tools from MCP server: **+ Add Server**
 
-        ![OS Patrol add server](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/add-server.png?raw=true)
+        ![OS Patrol add server](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/add-server.png?raw=true)
 
     -  Select how you want to use MCP server: **Create a New MCP Server**
 
-        ![OS Patrol create new server](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/create-new-server.png?raw=true)
+        ![OS Patrol create new server](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/create-new-server.png?raw=true)
 
     -  Select an MCP Server template: **typescript-weather**
 
-        ![OS Patrol server template](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/server-template.png?raw=true)
+        ![OS Patrol server template](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/server-template.png?raw=true)
 
     -  Select a folder to save the MCP server template: **Browse** 
         
@@ -92,7 +95,7 @@ This next step is where you will add tools to your agent, allowing it to perform
 
        A new window will open with mcp-server template code.
 
-        ![MCP server template](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/node-os-mcp-aitk.png?raw=true)
+        ![MCP server template](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/node-os-mcp-aitk.png?raw=true)
 
 ### Build the MCP server
 
@@ -221,21 +224,21 @@ Run `npm install` to install the dependencies for the MCP server.
 
 1. Open VS Code Debug panel. Select **Debug in Agent Builder** and press F5 to start debugging the MCP server.
 
-    ![Debug in Agent Builder](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/debug-in-agent-builder.png?raw=true)
+    ![Debug in Agent Builder](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/debug-in-agent-builder.png?raw=true)
 
     The MCP Server will be auto-connected to the Agent Builder. If you scroll down, to the **Tools** section, you will see the tools you defined in the MCP server.
 
-    ![OS Patrol tools](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/local-mcp-server.png?raw=true)
+    ![OS Patrol tools](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/local-mcp-server.png?raw=true)
 
 2. Re-use the previous user prompt `What is my machine type` and click **Run** to test the AI Agent with the tools.
 
     The Agent will determine which tool to use based on your prompt. In this case, it will use the `get_architecture` tool to get the machine type.
 
-    ![OS Patrol response with tools](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/os-patrol-with-tools.png?raw=true)
+    ![OS Patrol response with tools](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/os-patrol-with-tools.png?raw=true)
 
 3. To simulate a natural conversation maintaining the context, click on the **Add to Prompts** button under the Model Response to add the response from the agent as an **Assistant prompt**. Now, when you run the agent again, or with a new user prompt, the previous response will be included in the prompt and the model will reference it as conversation history.
 
-    ![Add to prompts](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/os-summary-response.png?raw=true)
+    ![Add to prompts](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/os-summary-response.png?raw=true)
 
 
 ## ✅ Activity: Push your mcp server code to the repository

@@ -20,10 +20,12 @@ In this step, you will learn how to add RAG (**R**etrieval-**A**ugmented **G**en
 
 - You have completed the previous steps and have a working AI app that can answer questions. If you haven't, please click the **Reset Progress** button above to select the _Add a simple chat interface_ quest.
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
 
 To complete this step, you will need to get a sample dataset in any format (e.g., PDF, CSV, JSON) to work with. 
 
-An an example, will use a [sample Contoso Electronics Employee Handbook PDF](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/employee_handbook.pdf) file. **You can bring any file of your choice**, but make sure it contains relevant information that you want your AI app to use for RAG. The code provided here will work with any text-based file.
+An example, will use a [sample Contoso Electronics Employee Handbook PDF](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/employee_handbook.pdf) file. **You can bring any file of your choice**, but make sure it contains relevant information that you want your AI app to use for RAG. The code provided here will work with any text-based file.
 
 - Create a new folder `data` in the root of your project and move the file in it. To search and read your PDF, you will need to extract the text from it. You can use any PDF parser library of your choice, but for this example, we will use the `pdf-parse` library.
 
@@ -364,24 +366,24 @@ Open your browser to use the app, usually at `http://localhost:5123`.
 2. Ask a question related to the employee handbook, such as _"What is our company's mission statement?"_
    - The expected outcome is that the AI will respond with an answer based on the content of the employee handbook PDF, and the relevant excerpts will be displayed below the response.
 
-      ![AI Foundry RAG with context](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ai-app-with-rag.png?raw=true)
+      ![AI Foundry RAG with context](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-app-with-rag.png?raw=true)
 
 3. Now ask a question not covered in the employee handbook, such as _"What's the company's stock price?"_
     - The expected outcome is that the AI will respond saying it doesn't have the information, and no excerpts will be displayed.
 
-      ![AI Foundry RAG out of scope](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ai-app-with-rag-outofscope.png?raw=true)
+      ![AI Foundry RAG out of scope](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-app-with-rag-outofscope.png?raw=true)
 
 ### Test with RAG OFF 🔴 
 1. **Clear chat and uncheck the "Use Employee Handbook" checkbox**.
 2. Ask a question related to the employee handbook, such as _"What is our company's mission statement?"_
    - The expected outcome is that the AI will respond with a generic answer, and likely ask for more context, and no excerpts will be displayed.
 
-      ![AI Foundry no RAG no context](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/no-rag-company.png?raw=true)
+      ![AI Foundry no RAG no context](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/no-rag-company.png?raw=true)
 
 3. Now ask any general question, such as _"What is the capital of Morocco?"_
    - The expected outcome is that the AI will respond with the correct answer, and no excerpts will be displayed.
 
-      ![AI Foundry no RAG general question](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/no-rag-general.png?raw=true)
+      ![AI Foundry no RAG general question](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/no-rag-general.png?raw=true)
 
 Notice how, with RAG enabled, the AI is strictly limited to the handbook and refuses to answer unrelated questions. With RAG disabled, the AI is more flexible and answers any question to the best of its ability.
    
