@@ -19,6 +19,7 @@
    - 📊 Connect to external data with RAG, add conversation history with **LangChain.js**
    - 🤖 Build an AI Agent with **Azure AI Foundry Extension**
    - 🧰 Extend Agent with MCP Tools using the **AI Toolkit Extension**
+   - ⚡ Automate your dev workflows with **GitHub Models** and **GenAIScript** _(NO AZURE ACCOUNT NEEDED)_
 
 ## 🏁 How to get started
 
