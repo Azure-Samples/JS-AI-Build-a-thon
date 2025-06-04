@@ -25,7 +25,7 @@ In this step, you will learn how to add RAG (**R**etrieval-**A**ugmented **G**en
 
 To complete this step, you will need to get a sample dataset in any format (e.g., PDF, CSV, JSON) to work with. 
 
-An an example, will use a [sample Contoso Electronics Employee Handbook PDF](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/employee_handbook.pdf) file. **You can bring any file of your choice**, but make sure it contains relevant information that you want your AI app to use for RAG. The code provided here will work with any text-based file.
+An example, will use a [sample Contoso Electronics Employee Handbook PDF](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/employee_handbook.pdf) file. **You can bring any file of your choice**, but make sure it contains relevant information that you want your AI app to use for RAG. The code provided here will work with any text-based file.
 
 - Create a new folder `data` in the root of your project and move the file in it. To search and read your PDF, you will need to extract the text from it. You can use any PDF parser library of your choice, but for this example, we will use the `pdf-parse` library.
 
