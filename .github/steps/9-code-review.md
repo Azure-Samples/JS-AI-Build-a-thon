@@ -12,6 +12,9 @@
 
 ## 📝 Overview
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
+
 You will build an **automated code review system** that uses AI to analyze code changes and provide feedback. This system will help you ensure that your code meets the quality standards best practices of your project, while also learning how to use AI to automate some of your development tasks.
 
 ## 🧠 Use GenAIScript in VS Code
@@ -108,7 +111,7 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 ## 📚 Further Reading
 
-Here are some additional resources to help you learn more about the Azure Developer CLI (azd) and the templates available:
+Here are some additional resources to help you learn more about GenAIScript:
 
 - [More automation ideas with GenAIScript sample collection](https://microsoft.github.io/genaiscript/samples/)
 - [Learn about Generative AI with JavaScript on YouTube](https://aka.ms/genai-js)

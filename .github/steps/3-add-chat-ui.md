@@ -20,6 +20,9 @@ In this step, you will learn how to add a simple chat interface to your AI appli
 
 - The `ai-foundry.js` file being referenced in this step is a script created in the previous step, _moving AI prototye to Azure_. However, if you have not completed the previous step, this shouldn't block you from completing this quest.
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
+
 ## Step 1️⃣ : Initialize a new Vite project
 
 ### Introduction to Azure Developer CLI (azd)
@@ -75,7 +78,7 @@ npm run dev
 
 Navigate to `http://localhost:5173` in your browser to see the chat interface.
 
-![AI Chat Interface](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/vite-lit-ai-chat-interface.png?raw=true)
+![AI Chat Interface](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/vite-lit-ai-chat-interface.png?raw=true)
 
 ## Step 2️⃣: Add your AI model to the chat interface
 
@@ -215,7 +218,7 @@ Rename the `_mockAiCall` function to `_apiCall` and update the `sendMessage` met
 
 With the server running, navigate to `http://localhost:5173` in your browser. You should be able to send messages to the AI model and receive responses.
 
-![AI Chat Interface AI Foundry](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/ai-chat-interface-ai-foundry.png?raw=true)
+![AI Chat Interface AI Foundry](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ai-chat-interface-ai-foundry.png?raw=true)
 
 ## Step 4️⃣: Deploy to Azure
 
@@ -302,7 +305,7 @@ To deploy the application,
 - Select your Azure subscription,
 - Select a location for the resources.
 
-  ![azd up](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/azd-up.png?raw=true)
+  ![azd up](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/azd-up.png?raw=true)
 
 
 ## ✅ Activity: Push deployment infra code to your repository

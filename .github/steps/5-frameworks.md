@@ -20,6 +20,9 @@ In this step, you will learn you can simplify integrating AI features into your 
 
 This step assumes you have already completed the previous steps in this project and have a working web application that uses Azure's LLM endpoints. If you haven't done so, please click the **Reset Progress** button above to select the _Add a simple chat interface_ quest.
 
+> [!IMPORTANT]  
+> If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
+
 ## Step 1️⃣: Add LangChain.js to your project
 We'll first install LangChain.js in our project to ensure our backend can communicate with Azure's LLM endpoints using LangChain's abstractions.
 
@@ -96,7 +99,7 @@ Currently, the chat model does not remember previous messages. For example, if y
 
 Then ask the model _"Quiz time. What's my name?"_. The model will not remember your name because your name is not passed to the model in the prompt.
 
-![Memory test](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/memory-test.png?raw=true)
+![Memory test](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/memory-test.png?raw=true)
 
 To add memory, you will use LangChain's built-in memory modules - `ChatMessageHistory` and `ConversationSummaryMemory`. Conversation memory allows the AI to reference previous exchanges in a session, enabling more context-aware and coherent responses and LangChain.js provides built-in memory modules that make this easy to implement. With LangChain, you can implement stateful AI app experiences without manually managing chat logs, and you can easily switch between in-memory, Redis, or other storage options.
 
@@ -201,7 +204,7 @@ app.post("/chat", async (req, res) => {
 
 To test this, open the chat UI in your browser and send a message like _"Hey, you can call me Terry. What should I call you?"_ and then ask _"Quiz time. What's my name?"_. The model should remember your name.
 
-  ![Memory test passed](https://github.com/Azure-Samples/JS-Journey-to-AI-Foundry/blob/assets/jsai-buildathon-assets/memory-test-passed.png?raw=true)
+  ![Memory test passed](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/memory-test-passed.png?raw=true)
 
 ## ✅ Activity: Push your updated code to the repository
 
@@ -211,7 +214,7 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 **Checklist**
 
-- [ ] Have a `@langchain/azure-oenai` dependency in your package.json in the webapi directory
+- [ ] Have a `@langchain/azure-openai` dependency in your package.json in the webapi directory
 
 1. In the terminal, run the following commands to add, commit, and push your changes to the repository:
 
