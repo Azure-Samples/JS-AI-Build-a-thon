@@ -1,4 +1,4 @@
-name: Step 8, Complete Quest - Templates
+name: Step 9, Complete Quest - Templates
 
 on:
   workflow_dispatch:
@@ -18,12 +18,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update to step 9
+      - name: Update to step 10
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 8
-          to_step: 9
+          from_step: 9
+          to_step: 10
 
       - name: Comment and close issue
         uses: peter-evans/close-issue@v3

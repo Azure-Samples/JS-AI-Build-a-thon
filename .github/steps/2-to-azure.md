@@ -24,8 +24,8 @@ In this step, you will learn how to deploy your AI model to Azure AI Foundry aft
 > If you have done the previous quest, ensure you pull your changes from GitHub using `git pull` before continuing with this project to update the project README.
 
 ## 🧠 GitHub Models to Azure AI Foundry
-
-‼️ The following steps on GitHub Models should be in A SEPARATE BROWSER TAB. Keep this tab open for reference.
+> [!Note]
+> The following steps on GitHub Models should be in A SEPARATE BROWSER TAB. Keep this tab open for reference.
 
 1. On the separate tab on the GitHub models playground, click on **Use this model** and select **Language: JavaScript** and **SDK: Azure AI Inference  SDK**. 
 
