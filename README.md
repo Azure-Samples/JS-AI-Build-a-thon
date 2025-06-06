@@ -28,9 +28,9 @@
 1️⃣ Right Click on the **Start Course** &#8595; button below and open in a new tab. 
 
    - **Owner**: _Your personal account_ 
-   - **Repository name**: _Your GitHub username_ + `-AI-Build-a-thon` (e.g. `johndoe-AI-Build-a-thon`)
+   - **Repository name**: (e.g. `JSAI-Build-a-thon`)
    - **We recommend creating a public repository**, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Give your repository a name, such as `JS-AI-Build-a-thon`
+   - Optionally give your repository a description, such as `JS-AI-Build-a-thon`
    - **Privacy**: _Public_ 
       
       ⚠️ Ensure you select **Public**. If you select Private, GitHub Actions will not work.
@@ -52,6 +52,15 @@ To find an _In-Person_ or _Virtual_ Study Jam and Connect with other developers,
 
 [![Join Azure AI Community Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/JSAIonDiscord)
 
-&copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+|Study Jam|Country|Time zone|
+|---|---|---|
+|University of Southern California (USC)|US|PDT (GMT -7)|
+|MLSA SPSU (Sir Padampat Singhania University)|India|IST (GMT + 05:30)|
+|MLSA Nepal|Nepal|GMT + 5:45|
+|Azure Developer Community Kolkata|India|IST (GMT + 05:30)|
+|Elliot|Bosnia and Herzegovina|Central Time|
+|MLSC-PRPCEM|India|IST (GMT + 05:30)|
+|Federal University of Agriculture, Abeokuta, Ogun, Nigeria|Nigeria|WAT (GMT + 1)|
 
+&copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 </footer>
