@@ -217,6 +217,7 @@ Here are some additional resources to help you learn more about experimenting wi
 - [About GitHub Models](https://docs.github.com/en/github-models/about-github-models)
 - [Choosing the right AI model for your task](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task)
 - [Introducing GitHub Models: A new generation of AI engineers building on GitHub](https://github.blog/news-insights/product-news/introducing-github-models/)
+- [📹 DEM500: Prototype, build, and deploy AI apps quickly with GitHub Models](https://build.microsoft.com/en-US/sessions/DEM500?source=sessions)
 - [What is the AI Toolkit for Visual Studio Code?](https://learn.microsoft.com/en-us/windows/ai/toolkit/)
 - [Lesson 1: Introduction to Generative AI and LLMs for JavaScript Developers](https://github.com/microsoft/generative-ai-with-javascript/tree/main/lessons/01-intro-to-genai#lesson-1-introduction-to-generative-ai-and-llms-for-javascript-developers)
 - [Lesson 2: Writing your first AI app](https://github.com/microsoft/generative-ai-with-javascript/blob/main/lessons/02-first-ai-app/README.md#lesson-2-writing-your-first-ai-app)
