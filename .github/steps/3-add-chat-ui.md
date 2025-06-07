@@ -38,7 +38,7 @@ azd init -t Azure-Samples/vite-chat-interface
 ```
 
 > [!Note]
-> After running the above command, select **Keep my existing files unchanged** for the following option.
+> After running the above command, select **Keep my existing files unchanged** for the following option to prevent your README from being overwritten
 >
 > ![azd files option to kep](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/azd-files-options.png?raw=true)
 

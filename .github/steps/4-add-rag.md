@@ -25,7 +25,7 @@ In this step, you will learn how to add RAG (**R**etrieval-**A**ugmented **G**en
 
 To complete this step, you will need to get a sample dataset in any format (e.g., PDF, CSV, JSON) to work with. 
 
-An example, will use a [sample Contoso Electronics Employee Handbook PDF](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/employee_handbook.pdf) file. **You can bring any file of your choice**, but make sure it contains relevant information that you want your AI app to use for RAG. The code provided here will work with any text-based file.
+For this quest, as an example, will use a [sample Contoso Electronics Employee Handbook PDF](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/employee_handbook.pdf) file. **You can bring any file of your choice**, but make sure it contains relevant information that you want your AI app to use for RAG. The code provided here will work with any text-based file.
 
 - Create a new folder `data` in the root of your project and move the file in it. To search and read your PDF, you will need to extract the text from it. You can use any PDF parser library of your choice, but for this example, we will use the `pdf-parse` library.
 
@@ -51,8 +51,7 @@ Open your server code `webapi/server.js` and modify it to include the following 
 
 ```javascript
 // add at the top of the file -----------------------------------------
-import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";
-import { AzureKeyCredential } from "@azure/core-auth";
+import { isUnexpected } from "@azure-rest/ai-inference";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from 'url';
@@ -79,7 +78,7 @@ async function loadPDF() {
 
   const dataBuffer = fs.readFileSync(pdfPath);
   const data = await pdfParse(dataBuffer); 
-  pdfText = data.text; /
+  pdfText = data.text; 
   let currentChunk = ""; 
   const words = pdfText.split(/\s+/); 
 
@@ -135,7 +134,7 @@ app.post("/chat", async (req, res) => {
         Use ONLY the following information from the handbook to answer the user's question.
         If you can't find relevant information in the provided context, say so clearly.
         --- EMPLOYEE HANDBOOK EXCERPTS ---
-        ${sources.join('\n\n')}
+        ${sources.join('')}
         --- END OF EXCERPTS ---`
       });
     } else {
@@ -172,10 +171,9 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`AI API server running on port ${PORT}`);
-});
+// --------------------------------------------------------------------
+// rest of the code from const PORT ...
+
 ```
 </details>
 
@@ -416,3 +414,7 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 Here are some additional resources to help you learn more about RAG and how to implement it in your applications:
 - [Lesson 5: Talk to your data with Retrieval-Augmented Generation (RAG)](https://github.com/microsoft/generative-ai-with-javascript/blob/main/lessons/05-rag/README.md)
+- [What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
+- [Retrieval augmented generation and indexes](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/retrieval-augmented-generation)
+- [Get started with Serverless AI Chat with RAG using LlamaIndex](https://learn.microsoft.com/en-us/azure/developer/javascript/ai/get-started-app-chat-template-llamaindex?tabs=github-codespaces)
+- [Get started with Serverless AI Chat with RAG using LangChain.js](https://learn.microsoft.com/en-us/azure/developer/javascript/ai/get-started-app-chat-template-langchainjs?tabs=github-codespaces)
