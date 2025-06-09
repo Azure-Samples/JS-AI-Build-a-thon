@@ -466,7 +466,7 @@ If you ask the agent a question that requires real-time information, such as _"W
 ![Weather in Spain in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-in-spain.png?raw=true) -->
 
 
-## ✅ Activity: Push your updated code to the repository
+## ✅ Activity: Push your updated code to the repository - TBD
 
 ### Quest Checklist
 
