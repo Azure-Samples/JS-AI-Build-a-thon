@@ -25,7 +25,7 @@ In the quests, you have been building and implementing different AI components i
 
 ## Is it a celebration without goodies?
 
-Upon completion of all the quests, you will be issued a badge to to mark your milestone. To get your badge, fill in the form xxx and add your project repository link.
+Upon completion of all the quests, you will be issued a badge to mark your milestone. To get your badge, fill in the form xxx and add your project repository link.
 
 Once you receive your badge, be sure to post on social media using the #JSAIBuildathon.
 
