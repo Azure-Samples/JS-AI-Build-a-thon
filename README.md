@@ -28,9 +28,9 @@
 1️⃣ Right Click on the **Start Course** &#8595; button below and open in a new tab. 
 
    - **Owner**: _Your personal account_ 
-   - **Repository name**: _Your GitHub username_ + `-AI-Build-a-thon` (e.g. `johndoe-AI-Build-a-thon`)
+   - **Repository name**: (e.g. `JSAI-Build-a-thon`)
    - **We recommend creating a public repository**, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Give your repository a name, such as `JS-AI-Build-a-thon`
+   - Optionally give your repository a description, such as `JS-AI-Build-a-thon`
    - **Privacy**: _Public_ 
       
       ⚠️ Ensure you select **Public**. If you select Private, GitHub Actions will not work.
@@ -52,6 +52,20 @@ To find an _In-Person_ or _Virtual_ Study Jam and Connect with other developers,
 
 [![Join Azure AI Community Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/JSAIonDiscord)
 
-&copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+|Study Jam|Country|Time zone|
+|---|---|---|
+|[University of Southern California (USC)](https://bit.ly/js-ai-buildathon)|US, UK, India, Bangladesh|PT, ET, BST, IST|
+|[MLSA SPSU (Sir Padampat Singhania University)](https://forms.cloud.microsoft/r/fNFAuELdk4)|India|IST (GMT + 05:30)|
+|[MLSA Nepal](https://forms.cloud.microsoft/r/ANcMqGKrrv)|Nepal|GMT + 5:45|
+|[Azure Developer Community Kolkata](https://forms.cloud.microsoft/r/tZLHWTk3Cm )|India|IST (GMT + 05:30)|
+|[Elliot, Herzegovina](https://forms.cloud.microsoft/r/MGJ6StHWa4?origin=lprLink)|Bosnia|Central Time|
+|[MLSC-PRPCEM](https://globalai.community/chapters/amravati/events/js-ai-build-a-thon/)|India|IST (GMT + 05:30)|
+|[Federal University of Agriculture, Abeokuta, Ogun](https://forms.cloud.microsoft/r/eHYGdD2gBr)|Nigeria|WAT (GMT + 1)|
+|[Nairobi Azure AI](https://forms.office.com/r/3DK5Z7gqU3)|Kenya|EAT (GMT + 3)|
+|[SRM Institute of Science & Technology](https://forms.office.com/r/VQ4f1TXdCv)|India |IST (GMT + 05:30)|
+|[National Institute of Business Management](https://shorturl.at/UN509)|Sri Lanka|IST (GMT + 05:30)|
+|[DHA Suffa University](https://forms.cloud.microsoft/r/7r1ddkxyfH)|India |IST (GMT + 05:30)|
+|[Code Crafting](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b034xDCHMYNAl2nq0Nl42JZUMVFaQTJFSEpIT0xYVTc0QUoxWjEyMExNVi4u&route=shorturl)|India|IST (GMT + 05:30)|
 
+&copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 </footer>

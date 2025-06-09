@@ -38,8 +38,8 @@ The current api code uses the Azure REST SDK directly. By switching to LangChain
 Open `server.js` and replace:
 
 ```javascript
-import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";
 import { AzureKeyCredential } from "@azure/core-auth";
+import { isUnexpected } from "@azure-rest/ai-inference";
 ``` 
 
 with:
@@ -70,6 +70,9 @@ const chatModel = new AzureChatOpenAI({
   maxTokens: 4096,
 });
 ```
+
+> [!Note]
+> Update your `.env` with the missing variables 
 
 ### Update chat endpoint
 
@@ -124,7 +127,7 @@ import { ChatMessageHistory } from "langchain/stores/message/in_memory";
 Store session histories, allowing you to maintain separate chat histories for different users or sessions.
 
 ```javascript
-const sessionHistories = {};
+const sessionMemories = {};
 ```
 
 ### Add a helper function to get/create a session history
@@ -170,8 +173,7 @@ app.post("/chat", async (req, res) => {
     ? {
         role: "system",
         content: sources.length > 0
-          ? `You are a helpful assistant for Contoso Electronics. You must ONLY use the information provided below to answer.\n\n--- EMPLOYEE HANDBOOK EXCERPTS ---\n${sources.join('\n\n')}\n--- END OF EXCERPTS ---`
-          : `You are a helpful assistant for Contoso Electronics. The excerpts do not contain relevant information for this question. Reply politely: "I'm sorry, I don't know. The employee handbook does not contain information about that."`,
+          ? `You are a helpful assistant for Contoso Electronics. You must ONLY use the information provided below to answer.\\n\\n--- EMPLOYEE HANDBOOK EXCERPTS ---\\n${sources.join('\\n\\n')}\\n--- END OF EXCERPTS ---`\n          : `You are a helpful assistant for Contoso Electronics. The excerpts do not contain relevant information for this question. Reply politely: \"I'm sorry, I don't know. The employee handbook does not contain information about that.\"`,
       }
     : {
         role: "system",
@@ -233,5 +235,8 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 ## 📚 Further Reading
 
 Here are some additional resources to help you learn more about LangChain.js and its features:
-- [Serverless AI Chat with RAG using LangChain.js sample](https://github.com/Azure-Samples/serverless-chat-langchainjs)
+- [Get started with Serverless AI Chat with RAG using LangChain.js](https://github.com/Azure-Samples/serverless-chat-langchainjs)
+- [LangChain.js x Microsoft docs](https://js.langchain.com/docs/integrations/platforms/microsoft/)
+- [Ask YouTube: LangChain.js + Azure Quickstart](https://github.com/Azure-Samples/langchainjs-quickstart-demo)
+- [LangChain.js + Azure: A Generative AI App Journey](https://techcommunity.microsoft.com/blog/educatordeveloperblog/langchain-js--azure-a-generative-ai-app-journey/4101258)
 - [LangChain.js docs](https://js.langchain.com/docs/introduction/)
