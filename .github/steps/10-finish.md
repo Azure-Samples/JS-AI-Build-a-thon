@@ -30,7 +30,7 @@ Upon completion of all the quests, you will be issued a badge to mark your miles
 Once you receive your badge, be sure to post on social media using the #JSAIBuildathon.
 
 ## The momentum does not stop here.
-- [We'd love to hear what you thought of this course](TBD-feedback-link).
+- [We'd love to hear what you thought of this course](https://aka.ms/JSAIBuildathon-feedback).
 - Continue the interaction on our [Discord channel](https://aka.ms/JSAIonDiscord), channel name #js-ai-buildathon.
 - Encountered any bugs or issues in the products you used? Share your feedback on our [feedback board](https://github.com/orgs/azure-ai-foundry/discussions).
 - If you enjoyed the course, remember to take a minute and [leave star on our GitHub repo.](https://aka.ms/jsaibuildathon)
