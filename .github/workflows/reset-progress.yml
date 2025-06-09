@@ -76,7 +76,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: "Your progress has been reset! You can now select a new user quest from the [Welcome step](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/main/README.md)."
+              body: "Your progress has been reset! You can now select a new user quest from the [Welcome step](../../../README.md)."
             });
             github.rest.issues.update({
               issue_number: context.issue.number,
