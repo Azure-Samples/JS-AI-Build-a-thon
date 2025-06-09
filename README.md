@@ -54,13 +54,18 @@ To find an _In-Person_ or _Virtual_ Study Jam and Connect with other developers,
 
 |Study Jam|Country|Time zone|
 |---|---|---|
-|University of Southern California (USC)|US|PDT (GMT -7)|
-|MLSA SPSU (Sir Padampat Singhania University)|India|IST (GMT + 05:30)|
-|MLSA Nepal|Nepal|GMT + 5:45|
-|Azure Developer Community Kolkata|India|IST (GMT + 05:30)|
-|Elliot|Bosnia and Herzegovina|Central Time|
-|MLSC-PRPCEM|India|IST (GMT + 05:30)|
-|Federal University of Agriculture, Abeokuta, Ogun, Nigeria|Nigeria|WAT (GMT + 1)|
+|[University of Southern California (USC)](https://bit.ly/js-ai-buildathon)|US, UK, India, Bangladesh|PT, ET, BST, IST|
+|[MLSA SPSU (Sir Padampat Singhania University)](https://forms.cloud.microsoft/r/fNFAuELdk4)|India|IST (GMT + 05:30)|
+|[MLSA Nepal](https://forms.cloud.microsoft/r/ANcMqGKrrv)|Nepal|GMT + 5:45|
+|[Azure Developer Community Kolkata](https://forms.cloud.microsoft/r/tZLHWTk3Cm )|India|IST (GMT + 05:30)|
+|[Elliot, Herzegovina](https://forms.cloud.microsoft/r/MGJ6StHWa4?origin=lprLink)|Bosnia|Central Time|
+|[MLSC-PRPCEM](https://globalai.community/chapters/amravati/events/js-ai-build-a-thon/)|India|IST (GMT + 05:30)|
+|[Federal University of Agriculture, Abeokuta, Ogun](https://forms.cloud.microsoft/r/eHYGdD2gBr)|Nigeria|WAT (GMT + 1)|
+|[Nairobi Azure AI](https://forms.office.com/r/3DK5Z7gqU3)|Kenya|EAT (GMT + 3)|
+|[SRM Institute of Science & Technology](https://forms.office.com/r/VQ4f1TXdCv)|India |IST (GMT + 05:30)|
+|[National Institute of Business Management](https://shorturl.at/UN509)|Sri Lanka|IST (GMT + 05:30)|
+|[DHA Suffa University](https://forms.cloud.microsoft/r/7r1ddkxyfH)|India |IST (GMT + 05:30)|
+|[Code Crafting](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b034xDCHMYNAl2nq0Nl42JZUMVFaQTJFSEpIT0xYVTc0QUoxWjEyMExNVi4u&route=shorturl)|India|IST (GMT + 05:30)|
 
 &copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 </footer>

@@ -37,6 +37,11 @@ In your current working directory, _(at the root)_, run the following command to
 azd init -t Azure-Samples/vite-chat-interface
 ```
 
+> [!Note]
+> After running the above command, select **Keep my existing files unchanged** for the following option to prevent your README from being overwritten
+>
+> ![azd files option to kep](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/azd-files-options.png?raw=true)
+
 This will initialize a new Vite project and add the necessary files and folders to your project:
 
 ```markdown
@@ -226,7 +231,7 @@ The project is already configured to deploy the webapp (frontend) to Azure Stati
 
 ```yaml
 webapp:
-    project: packages/webapp
+    project: webapp
     host: staticwebapp
     language: js
     dist: dist
@@ -254,11 +259,13 @@ module webapp 'br/public:avm/res/web/static-site:0.7.0' = {
   }
 }
 ```
+However, remember you updated the path to the `webapp` folder when we moved it to the `packages` folder. **So change the project path in `azure.yaml` to `project: packages/webapp` for the webapp service**
+
 The webapi service is not yet configured in the `azure.yaml` file. To add the webapi service, add the following code to the `azure.yaml` file inside the `services` node:
 
 ```yaml
 webapi:
-    project: packages/webapp
+    project: packages/webapi
     host: appservice
     language: js
 ```
@@ -281,6 +288,7 @@ module webapi 'br/public:avm/res/web/site:0.15.1' = {
   params: {
     kind: 'app'
     name: webapiName
+    tags: union(tags, { 'azd-service-name': webapiName })
     serverFarmResourceId: serverfarm.outputs.resourceId
   }
 }
@@ -289,7 +297,7 @@ module webapi 'br/public:avm/res/web/site:0.15.1' = {
 Declare the following parameters at the top of the `main.bicep` file to pass the names of the webapi and app service plan to the module:
 
 ```bash
-param webapiName string = 'webapi'
+param webapiName string = '<your-unique-string>' #use a unique string. avoid common names like webapi, website etc.
 param appServicePlanName string = 'appserviceplan'
 ```
 
@@ -337,8 +345,6 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 Here are some additional resources to help you learn more about tools used in this step:
 
-- https://vite.dev/
-- https://lit.dev/
 - [Accelerate your journey to the cloud with azd](https://azure.github.io/awesome-azd/getting-started)
 - [📹 BRK118: Accelerate Azure Development with GitHub Copilot, VS Code & AI](https://build.microsoft.com/en-US/sessions/BRK118?source=sessions)
 - [Introducing the Azure Developer CLI (azd): A faster way to build apps for the cloud blog](https://devblogs.microsoft.com/azure-sdk/introducing-the-azure-developer-cli-a-faster-way-to-build-apps-for-the-cloud/)

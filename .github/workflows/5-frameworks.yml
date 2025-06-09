@@ -44,7 +44,7 @@ jobs:
       - name: Check for LangChain in package.json
         id: check_langchain
         run: |
-          if [ -f "packages/webapi/package.json" ] && grep -q "@langchain/azure-openai" packages/webapi/package.json; then
+          if [ -f "packages/webapi/package.json" ] && grep -q "@langchain/openai" packages/webapi/package.json; then
             echo "langchain_exists=true" >> $GITHUB_OUTPUT
           else
             echo "langchain_exists=false" >> $GITHUB_OUTPUT

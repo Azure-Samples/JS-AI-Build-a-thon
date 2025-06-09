@@ -152,16 +152,16 @@ options:
 
 Save the `bing.yaml` file.
 
-On the Agent Designer, click on the + icon next to the "Tools" section. This will prompt you to select a yaml file for the tool. Select the `bing.yaml` file you created earlier. Click on **Deploy to Azure AI Foundry** to deploy your updated agent with the new tool to Azure AI Foundry.
+On the Agent Designer, click on the + icon next to the "Tools" section. This will prompt you to select a yaml file for the tool. Select the `bing.yaml` file you created earlier. Click on **Update Agent on Azure AI Foundry** to update your agent with the new tool to Azure AI Foundry.
 
-![Add bing tool via extension](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/add-bing.png?raw=true)
+![Add bing tool via extension](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/update-tool.png?raw=true)
 
 Now that we have added the Bing Search API tool to our agent, we can test it in the Playground. Open the "Agent Playground" and send the agent a message like _"What's the weather in Nairobi right now?"_ The agent should use the Bing Search API tool to fetch the current weather information and respond with a friendly message.
 
 ![Weather with Bing](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-with-bing.png?raw=true)
 
 
-## Step 4️⃣: Agent playground to Code
+<!-- ## Step 4️⃣: Agent playground to Code
 
 The Agent Playground is a great way to test your agent's capabilities, but it's not the only way to interact with it. In this step, we will update our application to use the agent we just created. This will allow us to use the agent in our application and make it more useful.
 
@@ -463,10 +463,10 @@ On the app, select the **Agent** mode from the dropdown. Type a message in the i
 
 If you ask the agent a question that requires real-time information, such as _"What's the current weather in Spain?"_, the agent should ground its response using the Bing Search API and provide you with the latest information.
 
-![Weather in Spain in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-in-spain.png?raw=true)
+![Weather in Spain in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-in-spain.png?raw=true) -->
 
 
-## ✅ Activity: Push your updated code to the repository
+## ✅ Activity: Push your updated code to the repository - TBD
 
 ### Quest Checklist
 
@@ -494,5 +494,6 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 Here are some additional resources to help you learn more about building AI agents and extending their capabilities with tools:
 - [Azure AI Agents JavaScript examples](https://github.com/Azure-Samples/azure-ai-agents-javascript)
 - [Your First AI Agent in JS with Azure AI Agent Service](https://www.youtube.com/live/RNphlRKvmJQ?si=I3rUp-LmnvS008ym)
-- [Create a new Agent - JS/TS](https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=programming-language-javascript)
+- [Build Apps and Agents with Visual Studio Code and Azure blog](https://devblogs.microsoft.com/blog/build-apps-and-agents-with-visual-studio-code-and-azure)
 - [📹 DEMFP781: From Prompt to Product: Build an AI Agent That Generates UI](https://build.microsoft.com/en-US/sessions/DEMFP781?source=sessions)
+- [Build with the AI Foundry JavaScript SDK](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-javascript)

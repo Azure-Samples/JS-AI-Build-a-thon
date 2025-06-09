@@ -23,7 +23,7 @@ With GitHub Models, you can use GitHub Personal Access Tokens (PAT) to authentic
 1. Right click [GitHub Models](https://github.com/marketplace/models) and open in a new tab
 
 > [!NOTE]  
-> Open the link IN A NEW TAB so you can keep this page open for reference.
+> Open the link IN A NEW TAB so you can keep this page open for reference. You can use the _Split Screen_ feature on Edge to have this instructions and GitHub Models/ VS Code open side-by-side
 
 2. Click on **explore the full model catalog** to see the available models.
 
@@ -142,7 +142,7 @@ Now that you have a better understanding of the models from the GitHub Models pl
 
 ## 📌 Exercise: Convert a hand-drawn sketch to a web page
 
-1. Download the contoso website hand-drawn sketch from [this link](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/contoso_layout_sketch.jpg), and save it `contoso_layout_sketch.jpg` in the same directory as your `sample.js` file.
+1. Download the contoso website hand-drawn sketch from [this link](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/contoso_layout_sketch.jpg), _(right click and open in new tab)_. and save it `contoso_layout_sketch.jpg` in the same directory as your `sample.js` file.
 
     > **Note**
     >
@@ -214,11 +214,12 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 Here are some additional resources to help you learn more about experimenting with AI models and building prototypes:
 
+- [About GitHub Models](https://docs.github.com/en/github-models/about-github-models)
+- [Choosing the right AI model for your task](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task)
+- [Introducing GitHub Models: A new generation of AI engineers building on GitHub](https://github.blog/news-insights/product-news/introducing-github-models/)
+- [📹 DEM500: Prototype, build, and deploy AI apps quickly with GitHub Models](https://build.microsoft.com/en-US/sessions/DEM500?source=sessions)
+- [What is the AI Toolkit for Visual Studio Code?](https://learn.microsoft.com/en-us/windows/ai/toolkit/)
 - [Lesson 1: Introduction to Generative AI and LLMs for JavaScript Developers](https://github.com/microsoft/generative-ai-with-javascript/tree/main/lessons/01-intro-to-genai#lesson-1-introduction-to-generative-ai-and-llms-for-javascript-developers)
 - [Lesson 2: Writing your first AI app](https://github.com/microsoft/generative-ai-with-javascript/blob/main/lessons/02-first-ai-app/README.md#lesson-2-writing-your-first-ai-app)
 - [Lesson 3: Prompt Engineering](https://github.com/microsoft/generative-ai-with-javascript/blob/main/lessons/03-prompt-engineering/README.md)
-- [GitHub Models - Your AI toolbox built into GitHub](https://github.com/features/models)
-- [Install the AI Toolkit](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio&ssr=false#overview) to browse and download public and custom models; author, test and evaluate prompts; fine-tune; and use them in your applications.
-- [What is the AI Toolkit for Visual Studio Code?](https://learn.microsoft.com/en-us/windows/ai/toolkit/)
-- [Build Apps and Agents with Visual Studio Code and Azure blog](https://devblogs.microsoft.com/blog/build-apps-and-agents-with-visual-studio-code-and-azure)
-- A curated set of essential extensions for building generative AI applications and agents in Visual Studio Code. Install [the Microsoft AI Tools Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.microsoft-ai-tools-pack)
+- [Microsoft AI Tools Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.microsoft-ai-tools-pack), a curated set of essential extensions for building generative AI applications and agents in VS Code
