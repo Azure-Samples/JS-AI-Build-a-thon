@@ -25,8 +25,8 @@ To get sailing on the quest, go to the [JS AI Build-a-thon](http://aka.ms/JSAIBu
 |----|----|----|----|
 |[JS AI Build-a-thon Launch](https://developer.microsoft.com/en-us/reactor/events/25957/) |Pre - Build-a-thon|[Announcement Blog](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/%F0%9F%9A%A8introducing-the-js-ai-build-a-thon-%F0%9F%9A%A8/4420474)||
 |Setup for the Build-a-thon |June 09 |[JS AI Build-a-thon Setup in 5 Easy Steps](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/js-ai-build-a-thon-setup-in-5-easy-steps/4421787)|GitHub|
-|I Want to Build a Local Gen AI Prototype |June 09 |[Guide](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/quest-%E2%80%93-i-want-to-build-a-local-gen-ai-prototype/4421794)|GitHub Models (free), AI Toolkit in VS Code|
-|I want to move my prototype to Azure |June 11 |Coming soon|Azure AI Foundry extension in VS Code|
+|I Want to Build a Local Gen AI Prototype |June 09 |[Guide](https://aka.ms/JSAIBuildathonQuest1)|GitHub Models (free), AI Toolkit in VS Code|
+|I want to move my prototype to Azure |June 11 |[Guide](https://aka.ms/JSAIBuildathonQuest2)|Azure AI Foundry extension in VS Code|
 |I want to add a simple chat interface to my app |June 13 |Coming soon|Azure Developer CLI _(Infrastructure as Code)_|
 |I want to integrate external data using RAG |June 16 |Coming soon|RAG|
 |I want to explore AI frameworks and add chat memory |June 18 |Coming soon|LangChain.js|
