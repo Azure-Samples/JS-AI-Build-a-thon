@@ -67,6 +67,7 @@ To find an _In-Person_ or _Virtual_ Study Jam and Connect with other developers,
 |[DHA Suffa University](https://forms.cloud.microsoft/r/7r1ddkxyfH)|India |IST (GMT + 05:30)|
 |[Code Crafting](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b034xDCHMYNAl2nq0Nl42JZUMVFaQTJFSEpIT0xYVTc0QUoxWjEyMExNVi4u&route=shorturl)|India|IST (GMT + 05:30)|
 |[MLSA Peru](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b034xDCHMYNAl2nq0Nl42JZUMVFaQTJFSEpIT0xYVTc0QUoxWjEyMExNVi4u&route=shorturl)|Peru |(GMT - 05:00)|
+|[MLSA DEKUT](https://forms.office.com/r/YLWiQrGisf)|Kenya |EAT (GMT + 3)|
 
 &copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 </footer>
