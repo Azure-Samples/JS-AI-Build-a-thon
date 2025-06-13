@@ -162,7 +162,7 @@ On the `yaml` file, scroll down to the `tools` section and delete the empty arra
    - `project_name` = Your Project name on AI Foundry
    - `bing_grounding_connection_name` = The connection name **NOT** the bing resource name
 
-- A Bing Grounding conenction should appear under the **Tool** section on the Agent Designer. Click on **Update Agent on Azure AI Foundry** to update your agent with the new tool configuration.
+- A Bing Grounding connection should appear under the **Tool** section on the Agent Designer. Click on **Update Agent on Azure AI Foundry** to update your agent with the new tool configuration.
 
 Now that you've added the Bing Grounding to your agent, you can test it in the Playground. Open the "Agent Playground" and send the agent a message like _"What's the weather in Nairobi right now?"_ The agent should use the Bing Search API tool to fetch the current weather information and respond with a friendly message.
 
