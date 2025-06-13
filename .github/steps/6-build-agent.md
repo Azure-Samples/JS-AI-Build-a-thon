@@ -49,8 +49,12 @@ If you used a different region, please [create a new Azure AI Foundry project](h
 
     You'll be prompted to save the agent's configuration file. Assign the name `my-agent.agent.yaml` and save the file in the agents folder you created earlier. Once saved, the yaml file and the Agent Designer will open for you to configure your agent.
     
+    **Security Note 🔐**
+
+    Add the `my-agent.agent.yaml` file to your `.gitignore` file to prevent it from being committed to your repository. This file will contain sensitive information such as your subscription ID and agent ID, which should not be shared publicly.
+
     On the Agent Designer, 
-    - Give your agent a name. i.e `my-agent` 
+    - Give your agent a name. i.e `my-agent` _that will have been auto-populated for you._
     - Enter a foundation model for your agent from your model list. This model will power the agent's core reasoning and language capabilities. _Example. gpt-4o_
     - System instructions for your agent. This tells the agent how it should behave. Enter the following:
 
@@ -76,9 +80,9 @@ If you used a different region, please [create a new Azure AI Foundry project](h
         responses.
       tools: [] # We'll add tools later
       ````
-3.  **Deploy Agent** 
+3.  **Create Agent** 
 
-    Click on the **Deploy to Azure AI Foundry** button in the Agent Designer to deploy your agent to Azure AI Foundry Once created, the agent will pop up in the AI Foundry extension under the "Agents" section.
+    Click on the **Create Agent on Azure AI Foundry** button in the Agent Designer to create and deploy your agent to Azure AI Foundry. Once created, the agent will pop up in the AI Foundry extension under the "Agents" section.
 
     ![Deploy to Azure AI Foundry Button](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/deploy-to-ai-foundry.png?raw=true)
 
@@ -131,55 +135,59 @@ Tools calling is a powerful feature that allows your agent to perform specific t
 
 6. Once connected, click **close**
 
-### Prepare the Bing Grounding tool YAML
+### Add bing tool to your Agent
+With your `my-agent.agent.yaml` file open, click on the Foundry icon at the top right corner to open the Agent Designer.
 
-Back on Visual Studio Code, create a tool configuration .yaml file called `bing.yaml` in the same directory as your agent configuration file (the agent folder). Paste in the following into the `bing.yaml` file:
+![Open Agent Designer](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/open-agent-designer.png?raw=true)
 
-```yaml
-type: bing_grounding
-id: bing_search
-options:
-  tool_connections:
-    - /subscriptions/<subscription_ID>/resourceGroups/<resource_group_name>/providers/Microsoft.MachineLearningServices/workspaces/<project_name>/connections/<bing_grounding_connection_name>
-```
+On the `yaml` file, scroll down to the `tools` section and delete the empty array `[]`, then: -
 
-  Replace the placeholders in the connection string under the tool_connections section with your information:
+- Click **Enter** followed by **-** to invoke the YAML IntelliSense that will help you add a new tool configuration easily.
 
-  - `subscription_ID` = Your Azure Subscription ID
-  - `resource_group_name` = Your Resource Group name
-  - `project_name` = Your Project name on AI Foundry
-  - `bing_grounding_connection_name` = The connection name **NOT** the bing resource name
+  ![Open Agent Designer](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/new-tool-intellisense.png?raw=true)
 
-Save the `bing.yaml` file.
+- Select the `Agent Tool - Bing Grounding` tool from the list of available built-in tools, and this will add the configuration for the Bing Search API tool to your agent configuration file.
 
-On the Agent Designer, click on the + icon next to the "Tools" section. This will prompt you to select a yaml file for the tool. Select the `bing.yaml` file you created earlier. Click on **Update Agent on Azure AI Foundry** to update your agent with the new tool to Azure AI Foundry.
+- To add the connection to the Bing resource you created earlier, type the **/** character after the **-** under **tool_connections**, and start typing `subscriptions`, and you'll see the IntelliSense kick in with your own subscription details. Select to complete the connection selection.
 
-![Add bing tool via extension](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/update-tool.png?raw=true)
+  ![Subscription aware intelliSense](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/sub-intellisense.png?raw=true)
 
-Now that we have added the Bing Search API tool to our agent, we can test it in the Playground. Open the "Agent Playground" and send the agent a message like _"What's the weather in Nairobi right now?"_ The agent should use the Bing Search API tool to fetch the current weather information and respond with a friendly message.
+  If the intelliSense fails, paste in the following
+  
+  `/subscriptions/<subscription_ID>/resourceGroups/<resource_group_name>/providers/Microsoft.MachineLearningServices/workspaces/<project_name>/connections/<bing_grounding_connection_name>`
+  
+  and replace the placeholders with your information:
+   - `subscription_ID` = Your Azure Subscription ID
+   - `resource_group_name` = Your Resource Group name
+   - `project_name` = Your Project name on AI Foundry
+   - `bing_grounding_connection_name` = The connection name **NOT** the bing resource name
+
+- A Bing Grounding connection should appear under the **Tool** section on the Agent Designer. Click on **Update Agent on Azure AI Foundry** to update your agent with the new tool configuration.
+
+Now that you've added the Bing Grounding to your agent, you can test it in the Playground. Open the "Agent Playground" and send the agent a message like _"What's the weather in Nairobi right now?"_ The agent should use the Bing Search API tool to fetch the current weather information and respond with a friendly message.
 
 ![Weather with Bing](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-with-bing.png?raw=true)
 
 
-<!-- ## Step 4️⃣: Agent playground to Code
+## Step 4️⃣: Agent playground to Code
 
-The Agent Playground is a great way to test your agent's capabilities, but it's not the only way to interact with it. In this step, we will update our application to use the agent we just created. This will allow us to use the agent in our application and make it more useful.
+The Agent Playground is a great way to test your agent's capabilities, but it's not the only way to interact with it. In this step, you will update our application to use the agent you just created.
 
 ### Get Agent code
 Open the **Agent Playground** on the [AI Foundry portal](https://ai.azure.com/) and click on **View Code**. This will show you the code that is used to interact with the agent. 
 
 ![View code](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/view-code.png?raw=true)
 
-Switch to the **JavaScript** tab, copy and paste the code into a new file called `agent.js` in the `packages/webapi` directory of your project. The code will already have the necessary setup for the agent, and will retrieve and display the current thread.
+Switch to the **JavaScript** tab, copy and paste the code into a new file called `agent.js` in the `packages/webapi` directory of your project. The code will already have the necessary setup for the agent, including your hard-coded connection string and agent ID.
 
 Run the code using `node agent.js` and you should see the output in the terminal.
 
-To send a message to the agent, you can update the `client.agents.createMessage` method to include the message you want to send. For example, you can replace the content with "When is the current weather in Cairo?" and run the code again. You should see the agent's response in the terminal.
+To send a message to the agent, you can update the `client.agents.createMessage` method to include the message you want to send. For example, you can replace the content with "Give me a summary of this year's Keynote at Microsoft Build" and run the code again. You should see the agent's response in the terminal.
 
 ````javascript
 const message = await client.agents.createMessage(thread.id, {
   role: "user",
-  content: "When is the current weather in Cairo?",
+  content: "Give me a summary of this year's Keynote at Microsoft Build",
 });
 console.log(`Created message, message ID: ${message.id}`);
 ````
@@ -211,7 +219,7 @@ export class AgentService {
       new DefaultAzureCredential()
     );
     
-    // The agent ID from your agent.yaml file
+    // You can get the agent ID from your my-agent.agent.yaml file or the sample code
     this.agentId = "<YOUR_AGENT_ID>";
   }
 
@@ -308,7 +316,11 @@ if (mode === "agent") {
 }
 ```
 
+Restart your server.
+
 ### Update Chat UI
+
+_You'll first update the UI, then implement the logic later. So don't worry if the changes don't work immediately._
 
 First, modify the ChatInterface class in `webapp/src/components/chat.js` Add a new property for mode (basic vs agent) 
 
@@ -325,13 +337,13 @@ this.chatMode = "basic"; // Set default mode to basic
 In the render method, between the `Clear Chat button` and the `RAG-toggle component`, add a model-selector component. 
 
 ```javascript
-  <div class="mode-selector">
-    <label>Mode:</label>
-      <select @change=${this._handleModeChange}>
-        <option value="basic" ?selected=${this.chatMode === 'basic'}>Basic AI</option>
-        <option value="agent" ?selected=${this.chatMode === 'agent'}>Agent</option>
-      </select>
-  </div>
+<div class="mode-selector">
+  <label>Mode:</label>
+    <select @change=${this._handleModeChange}>
+      <option value="basic" ?selected=${this.chatMode === 'basic'}>Basic AI</option>
+      <option value="agent" ?selected=${this.chatMode === 'agent'}>Agent</option>
+    </select>
+</div>
 ```
 
 ![Switch modes](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/switch-modes.png?raw=true)
@@ -340,34 +352,34 @@ Update the `RAG toggle` to be disabled when the mode is set to "agent".
 
 
 ```javascript
-  <label class="rag-toggle ${this.chatMode === 'agent' ? 'disabled' : ''}">
-    <input type="checkbox" 
-      ?checked=${this.ragEnabled} 
-      @change=${this._toggleRag}
-      ?disabled=${this.chatMode === 'agent'}>
-  Use Employee Handbook
+<label class="rag-toggle ${this.chatMode === 'agent' ? 'disabled' : ''}">
+  <input type="checkbox" 
+    ?checked=${this.ragEnabled} 
+    @change=${this._toggleRag}
+    ?disabled=${this.chatMode === 'agent'}>
+Use Employee Handbook
 </label>
 ```
 
 ![Disable RAG toggle in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/disable-rag-toggle.png?raw=true)
 
-Let's make the placeholder text conditional based on the selected mode
+Let's make the placeholder text conditional based on the selected mode, by updating the _chat-input_ component in the render method:
 
 ```javascript
-  <input 
-    type="text" 
-    placeholder=${this.chatMode === 'basic' ? 
-      "Ask about company policies, benefits, etc..." : 
-      "Ask Agent"}
-    .value=${this.inputMessage}
-    @input=${this._handleInput}
-    @keyup=${this._handleKeyUp}
-  />
+<input 
+  type="text" 
+  placeholder=${this.chatMode === 'basic' ? 
+    "Ask about company policies, benefits, etc..." : 
+    "Ask Agent"}
+  .value=${this.inputMessage}
+  @input=${this._handleInput}
+  @keyup=${this._handleKeyUp}
+/>
 ```
 
 ![Agent mode placeholder text](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/ask-agent.png?raw=true)
 
-and the message sender display to show 'Agent' instead of 'AI' when the mode is set to 'agent':
+and the message sender display to show **Agent** instead of **AI** when the mode is set to 'agent'. Update the _chat-message_ component 
 
 ```javascript
 <span class="message-sender">${message.role === 'user' ? 'You' : (this.chatMode === 'agent' ? 'Agent' : 'AI')}</span>
@@ -463,10 +475,10 @@ On the app, select the **Agent** mode from the dropdown. Type a message in the i
 
 If you ask the agent a question that requires real-time information, such as _"What's the current weather in Spain?"_, the agent should ground its response using the Bing Search API and provide you with the latest information.
 
-![Weather in Spain in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-in-spain.png?raw=true) -->
+![Weather in Spain in Agent mode](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/weather-in-spain.png?raw=true)
 
 
-## ✅ Activity: Push your updated code to the repository - TBD
+## ✅ Activity: Push your updated code to the repository
 
 ### Quest Checklist
 
@@ -474,13 +486,14 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 
 **Checklist**
 
-- [ ] Have a `agent` folder in the packages directory
+- [ ] Ensure your agent configuration file is added to `.gitignore` to prevent it from being committed. DON'T PUSH IT TO THE REPOSITORY.
+- [ ] Have an `agentService.js` file in the `packages/webapi` directory 
 
 1. In the terminal, run the following commands to add, commit, and push your changes to the repository:
 
     ```bash
     git add .
-    git commit -m "Added agent"
+    git commit -m "Added agent mode"
     git push
     ```
 2.  After pushing your changes, **WAIT ABOUT 15 SECONDS FOR GITHUB ACTIONS TO UPDATE YOUR README**.
@@ -494,6 +507,5 @@ To complete this quest and **AUTOMATICALLY UPDATE** your progress, you MUST push
 Here are some additional resources to help you learn more about building AI agents and extending their capabilities with tools:
 - [Azure AI Agents JavaScript examples](https://github.com/Azure-Samples/azure-ai-agents-javascript)
 - [Your First AI Agent in JS with Azure AI Agent Service](https://www.youtube.com/live/RNphlRKvmJQ?si=I3rUp-LmnvS008ym)
-- [Build Apps and Agents with Visual Studio Code and Azure blog](https://devblogs.microsoft.com/blog/build-apps-and-agents-with-visual-studio-code-and-azure)
+- [Create a new Agent - JS/TS](https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=programming-language-javascript)
 - [📹 DEMFP781: From Prompt to Product: Build an AI Agent That Generates UI](https://build.microsoft.com/en-US/sessions/DEMFP781?source=sessions)
-- [Build with the AI Foundry JavaScript SDK](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-javascript)
