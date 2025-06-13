@@ -51,7 +51,7 @@ If you used a different region, please [create a new Azure AI Foundry project](h
     
     **Security Note 🔐**
 
-    Add the `my-agent.agent.yaml` file to your `.gitignore` file to prevent it from being committed to your repository. This file will contains sensitive information such as your subscription ID and agent ID, which should not be shared publicly.
+    Add the `my-agent.agent.yaml` file to your `.gitignore` file to prevent it from being committed to your repository. This file will contain sensitive information such as your subscription ID and agent ID, which should not be shared publicly.
 
     On the Agent Designer, 
     - Give your agent a name. i.e `my-agent` _that will have been auto-populated for you._
