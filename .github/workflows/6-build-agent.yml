@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "packages/**"
+      - "packages/webapi/agentService.js"
     branches:
       - main
 
@@ -25,7 +25,7 @@ jobs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
   on_agent_directory:
-    name: On addition of agent directory
+    name: On addition of an agentService module
     needs: get_current_step
 
     if: >-
@@ -41,10 +41,10 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      - name: Check agent directory exists
+      - name: Check agentService.js file exists
         id: check_agent
         run: |
-          if [ -d "packages/agent" ]; then
+          if [ -f "packages/webapi/agentService.js" ]; then
             echo "agent_exists=true" >> $GITHUB_OUTPUT
           else
             echo "agent_exists=false" >> $GITHUB_OUTPUT
