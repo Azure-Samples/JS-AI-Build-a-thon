@@ -46,12 +46,29 @@
 
 ---
 
+## 🗳️ Community Voting – JS AI Build-a-thon Projects
+Welcome to the final stage of the JS AI Build-a-thon – where real-world ideas turn into production-ready AI apps, and the community gets to decide what stands out!
+
+### 📣 How Voting Works
+Explore the projects below (or GitHub Issues), check out what each participant built, and upvote your favorite ones using the 👍 reaction on their GitHub Issue submission.
+
+The project with the highest community love earns the People’s Choice Spotlight at the finale! 🚀
+
+### Participating Projects
+
+|Project|Description|Submission|
+|---|---|---|
+|Deepmine-Sentinel|An intelligent mining safety assistant that provides real-time guidance and monitoring for mining operations.|[View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/29)|
+
+---
+
 ## 🤝 Get help 
 
-To find an _In-Person_ or _Virtual_ Study Jam and Connect with other developers, join the Azure AI Community Discord.
+To connect with other developers, join us in the Azure AI Community Discord _(#js-ai-build-a-thon)_.
 
 [![Join Azure AI Community Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/JSAIonDiscord)
 
+<!--
 |Study Jam|Country|Time zone|
 |---|---|---|
 |[University of Southern California (USC)](https://bit.ly/js-ai-buildathon)|US, UK, India, Bangladesh|PT, ET, BST, IST|
@@ -67,7 +84,8 @@ To find an _In-Person_ or _Virtual_ Study Jam and Connect with other developers,
 |[DHA Suffa University](https://forms.cloud.microsoft/r/7r1ddkxyfH)|India |IST (GMT + 05:30)|
 |[Code Crafting](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b034xDCHMYNAl2nq0Nl42JZUMVFaQTJFSEpIT0xYVTc0QUoxWjEyMExNVi4u&route=shorturl)|India|IST (GMT + 05:30)|
 |[MLSA Peru](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b034xDCHMYNAl2nq0Nl42JZUMVFaQTJFSEpIT0xYVTc0QUoxWjEyMExNVi4u&route=shorturl)|Peru |(GMT - 05:00)|
-|[MLSA DEKUT](https://forms.office.com/r/YLWiQrGisf)|Kenya |EAT (GMT + 3)|
+|[MLSA DEKUT](https://forms.office.com/r/YLWiQrGisf)|Kenya |EAT (GMT + 3)| -->
+
 
 &copy; 2025 JavaScript at Microsoft &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 </footer>
