@@ -58,7 +58,10 @@ The project with the highest community love earns the People’s Choice Spotligh
 
 |Project|Description|Submission|
 |---|---|---|
-|Deepmine-Sentinel|An intelligent mining safety assistant that provides real-time guidance and monitoring for mining operations.|[View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/29)|
+| You okay? Meet Vish AI, your mental health companion | An AI companion chatbot that leverages RAG and LangChain for empathetic, always-available mental health and emotional support. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/38) |
+| vmware-tools-broadcom | A Python script that automatically syncs, archives, and manages VMware Tools versions from Broadcom’s official site for easy access and historical reference. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/37) |
+| Onboarding Software | A customizable recruitment and access management tool using azd templates that streamlines candidate screening and promotes healthy organizational culture. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/36) |
+| Deepmine-Sentinel | An AI safety assistant for mining operations that delivers real-time guidance and monitoring to prevent accidents and save lives underground. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/29) |
 
 ---
 
