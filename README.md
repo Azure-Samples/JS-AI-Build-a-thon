@@ -58,6 +58,8 @@ The project with the highest community love earns the People’s Choice Spotligh
 
 |Project|Description|Submission|
 |---|---|---|
+| ACTS Sri Lanka | A specialized legal assistant for Sri Lankan government documents. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/42) |
+| JuaKatiba AI Agent | A serverless AI Chat assistant with RAG (Retrieval-Augmented Generation) using LangChain.js, specifically designed to help users understand and interpret the Constitution of Kenya and other Kenyan laws. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/41) |
 | You okay? Meet Vish AI, your mental health companion | An AI companion chatbot that leverages RAG and LangChain for empathetic, always-available mental health and emotional support. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/38) |
 | vmware-tools-broadcom | A Python script that automatically syncs, archives, and manages VMware Tools versions from Broadcom’s official site for easy access and historical reference. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/37) |
 | Onboarding Software | A customizable recruitment and access management tool using azd templates that streamlines candidate screening and promotes healthy organizational culture. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/36) |
