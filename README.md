@@ -58,12 +58,17 @@ The project with the highest community love earns the People’s Choice Spotligh
 
 |Project|Description|Submission|
 |---|---|---|
-| ACTS Sri Lanka | A specialized legal assistant for Sri Lankan government documents. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/42) |
-| JuaKatiba AI Agent | A serverless AI Chat assistant with RAG (Retrieval-Augmented Generation) using LangChain.js, specifically designed to help users understand and interpret the Constitution of Kenya and other Kenyan laws. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/41) |
-| You okay? Meet Vish AI, your mental health companion | An AI companion chatbot that leverages RAG and LangChain for empathetic, always-available mental health and emotional support. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/38) |
-| vmware-tools-broadcom | A Python script that automatically syncs, archives, and manages VMware Tools versions from Broadcom’s official site for easy access and historical reference. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/37) |
-| Onboarding Software | A customizable recruitment and access management tool using azd templates that streamlines candidate screening and promotes healthy organizational culture. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/36) |
-| Deepmine-Sentinel | An AI safety assistant for mining operations that delivers real-time guidance and monitoring to prevent accidents and save lives underground. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/29) |
+| Project | Description | Submission |
+|---------|-------------|------------|
+| ACTS Sri Lanka | An AI-powered legal assistant for Sri Lankan government documents that enables fast, citation-backed legal Q&A and search for citizens and professionals. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/42) |
+| JuaKatiba AI Agent | A serverless RAG-powered chatbot that explains and interprets Kenyan legal and constitutional documents, empowering citizens to defend their rights. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/41) |
+| You okay? Meet Vish AI, your mental health companion | An AI chatbot using RAG and LangChain for empathetic conversation and resource-based emotional wellness support whenever needed. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/38) |
+| vmware-tools-broadcom | A Python tool that automatically syncs, archives, and manages VMware Tools from Broadcom, saving time and providing easy access for IT users. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/37) |
+| Onboarding Software | A customizable recruitment and access platform leveraging azd templates to streamline candidate screening and enable healthy workplace culture. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/36) |
+| Deepmine-Sentinel | An AI safety assistant built on a chat template for providing miners with real-time underground safety guidance and accident prevention monitoring. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/29) |
+| Climate Action Assistant | An intelligent AI-powered climate action coach that delivers personalized, location-aware, and gamified environmental advice to help users reduce their carbon footprint effectively. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/48) |
+| AI Career Navigator - Your Personal AI Career Coach | An AI-powered career coaching application that analyzes resumes, identifies skill gaps, and guides developers to targeted job opportunities, interview readiness, and skill growth. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/47) |
+| AI FODMAP Food Helper | A friendly AI shopping companion that provides instant FODMAP ratings and tailored IBS-safe grocery advice, making the low FODMAP diet accessible and stress-free. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/46) |
 
 ---
 
