@@ -68,7 +68,9 @@ The project with the highest community love earns the People’s Choice Spotligh
 | AI Career Navigator - Your Personal AI Career Coach | An AI-powered career coaching application that analyzes resumes, identifies skill gaps, and guides developers to targeted job opportunities, interview readiness, and skill growth. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/47) |
 | AI FODMAP Food Helper | A friendly AI shopping companion that provides instant FODMAP ratings and tailored IBS-safe grocery advice, making the low FODMAP diet accessible and stress-free. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/46) |
 | healthy-living advisor | A health-focused AI chat app offering personalized, evidence-based, and accessible wellness, nutrition, and exercise advice. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/54) |
-
+| FitMind AI | An AI-powered wellness assistant that delivers personalized workout plans, healthy diet advice, and mental well-being tips for physical and mental health improvement. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/44) |
+| MrBones💪🦴.ai | An interactive AI anatomy assistant that transforms learning about the human skeletal system into an engaging, cloud-based virtual tutor and lab experience. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/49) |
+| Academic Advisor AI - Course Discovery & Degree Planning | A specialized RAG-powered AI system that provides intelligent course recommendations, prerequisite guidance, and academic pathway planning for students across multiple degree clusters. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/50) |
 
 ---
 
