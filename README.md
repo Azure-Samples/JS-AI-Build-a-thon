@@ -58,8 +58,6 @@ The project with the highest community love earns the People’s Choice Spotligh
 
 |Project|Description|Submission|
 |---|---|---|
-| Project | Description | Submission |
-|---------|-------------|------------|
 | ACTS Sri Lanka | An AI-powered legal assistant for Sri Lankan government documents that enables fast, citation-backed legal Q&A and search for citizens and professionals. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/42) |
 | JuaKatiba AI Agent | A serverless RAG-powered chatbot that explains and interprets Kenyan legal and constitutional documents, empowering citizens to defend their rights. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/41) |
 | You okay? Meet Vish AI, your mental health companion | An AI chatbot using RAG and LangChain for empathetic conversation and resource-based emotional wellness support whenever needed. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/38) |
@@ -69,6 +67,8 @@ The project with the highest community love earns the People’s Choice Spotligh
 | Climate Action Assistant | An intelligent AI-powered climate action coach that delivers personalized, location-aware, and gamified environmental advice to help users reduce their carbon footprint effectively. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/48) |
 | AI Career Navigator - Your Personal AI Career Coach | An AI-powered career coaching application that analyzes resumes, identifies skill gaps, and guides developers to targeted job opportunities, interview readiness, and skill growth. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/47) |
 | AI FODMAP Food Helper | A friendly AI shopping companion that provides instant FODMAP ratings and tailored IBS-safe grocery advice, making the low FODMAP diet accessible and stress-free. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/46) |
+| healthy-living advisor | A health-focused AI chat app offering personalized, evidence-based, and accessible wellness, nutrition, and exercise advice. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/54) |
+
 
 ---
 
