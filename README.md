@@ -71,7 +71,14 @@ The project with the highest community love earns the People’s Choice Spotligh
 | FitMind AI | An AI-powered wellness assistant that delivers personalized workout plans, healthy diet advice, and mental well-being tips for physical and mental health improvement. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/44) |
 | MrBones💪🦴.ai | An interactive AI anatomy assistant that transforms learning about the human skeletal system into an engaging, cloud-based virtual tutor and lab experience. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/49) |
 | Academic Advisor AI - Course Discovery & Degree Planning | A specialized RAG-powered AI system that provides intelligent course recommendations, prerequisite guidance, and academic pathway planning for students across multiple degree clusters. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/50) |
-
+| Cyby-Sec | An AI-driven cybersecurity chatbot that educates users, detects threats, and assists with real-time incident response through natural, human-like conversational guidance. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/57) |
+| AI-Mental--Wellness-Chatbot | An AI-powered mental wellness assistant that delivers empathetic conversations, stress relief guidance, and motivational support through a private chat interface. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/61) |
+| Your AI prompt assistant, PromptFix | An intelligent prompt engineering assistant that analyzes, debugs, and improves user prompts while providing AI-driven guidance for effective generative AI interactions. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/60) |
+| AI Travel Guide for Sri Lanka | A conversational GenAI assistant that offers reliable, document-based travel guidance and local recommendations tailored specifically for visitors to Sri Lanka. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/59) |
+| The Cofounder Who Never Sleeps, inizio.ai | An AI cofounder assistant that provides idea validation, step-by-step startup guidance, and emotionally intelligent mentoring for solo entrepreneurs. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/58) |
+| Doctor AI | An AI health companion that offers real-time symptom triage, lifestyle advice, and always-available access for remote and underserved populations. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/62) |
+| WanderWhiz Bot | An AI-powered travel assistant that offers personalized, city-specific guidance and real-time tips for travelers through a chat interface. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/63) |
+| MediBot: AI Medical Symptom & Disease Assistant | An AI medical assistant that uses curated medical resources to provide instant, reliable answers about symptoms, diseases, and when to seek care. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/51) |
 ---
 
 ## 🤝 Get help 
