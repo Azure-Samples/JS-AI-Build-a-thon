@@ -79,6 +79,12 @@ The project with the highest community love earns the People’s Choice Spotligh
 | Doctor AI | An AI health companion that offers real-time symptom triage, lifestyle advice, and always-available access for remote and underserved populations. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/62) |
 | WanderWhiz Bot | An AI-powered travel assistant that offers personalized, city-specific guidance and real-time tips for travelers through a chat interface. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/63) |
 | MediBot: AI Medical Symptom & Disease Assistant | An AI medical assistant that uses curated medical resources to provide instant, reliable answers about symptoms, diseases, and when to seek care. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/51) |
+| Muse AI | An AI-powered platform that uses an enhanced API template to foster self-reflection and empathy through engaging prompts and conversational logic. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/71) |
+| PetPal - Your AI Pet Care Assistant | A highly customized, serverless conversational AI assistant that delivers instant, personalized pet health and care guidance using Azure OpenAI and LangChain.js. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/70) |
+| Education AI | An AI assistant using customized chat-with-your-data for fast student Q&A, quiz creation, and teacher dashboards from school content. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/69) |
+| EcoGuardian: Your AI-Powered Carbon Footprint Tracker & Sustainability Coach | A scalable platform using Azure and JavaScript frameworks to track personal carbon emissions, provide AI-driven sustainability advice, and visualize impact for users. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/68) |
+| MLSA LearnBot | An intelligent chatbot for Microsoft Learn Student Ambassadors that provides instant answers, integrated documentation, and a student-focused experience through Azure OpenAI and AI Search. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/67) |
+| DocuChat AI | An AI chat app that enables users to interact conversationally with complex documents through RAG, memory, and semantic search for expert-level answers. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/66) |
 
 ---
 
