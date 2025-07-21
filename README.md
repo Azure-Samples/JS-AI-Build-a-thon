@@ -2,13 +2,11 @@
 
 # 🚀 JS AI Build-a-thon
 
-### 🤖 AI June Jams with JavaScript
+![banner](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/practical-ai-learning.png?raw=true)
 
-![Timeline for the program](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/jsaibuildathon-timeline.png?raw=true)
+Unique Hands-On Quests for JS/ TS Developers to Build AI Apps on Azure AI Foundry, and gain a deeper understanding of AI Technologies, Tools and Frameworks.
 
-9 Unique Hands-On Quests for JS/ TS Developers to Build AI Apps on Azure AI Foundry, and gain a deeper understanding of AI Technologies, Tools and Frameworks.
-
-✨ [Check the Study Guide for the latest resources & schedule](https://aka.ms/JSAIStudyGuide) ✨
+✨ [Check the Study Guide for additional resources](https://aka.ms/JSAIStudyGuide) ✨
 
 </header>
 
@@ -46,18 +44,23 @@
 
 ---
 
-## 🗳️ Community Voting – JS AI Build-a-thon Projects
-Welcome to the final stage of the JS AI Build-a-thon – where real-world ideas turn into production-ready AI apps, and the community gets to decide what stands out!
+## JS AI Build-a-thon (June 2025)
+Developers from all over the world joined us in the **AI June Jams with JavaScript** - turning their real-world ideas turn into ready AI apps, through this hands-on learning experience!
 
-### 📣 How Voting Works
-Explore the projects below (or GitHub Issues), check out what each participant built, and upvote your favorite ones using the 👍 reaction on their GitHub Issue submission.
+### 🚀 People’s Choice Spotlight Project: AI Career Navigator - Your Personal AI Career Coach
 
-The project with the highest community love earns the People’s Choice Spotlight at the finale! 🚀
+By [Aryanjstar](https://github.com/Aryanjstar)
+
+
+https://github.com/user-attachments/assets/0bde9089-050a-40d8-8eef-a9bfd92d6e49
+
+
 
 ### Participating Projects
 
 |Project|Description|Submission|
 |---|---|---|
+| AI Career Navigator - Your Personal AI Career Coach | An AI-powered career coaching application that analyzes resumes, identifies skill gaps, and guides developers to targeted job opportunities, interview readiness, and skill growth. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/47) |
 | ACTS Sri Lanka | An AI-powered legal assistant for Sri Lankan government documents that enables fast, citation-backed legal Q&A and search for citizens and professionals. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/42) |
 | JuaKatiba AI Agent | A serverless RAG-powered chatbot that explains and interprets Kenyan legal and constitutional documents, empowering citizens to defend their rights. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/41) |
 | You okay? Meet Vish AI, your mental health companion | An AI chatbot using RAG and LangChain for empathetic conversation and resource-based emotional wellness support whenever needed. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/38) |
@@ -65,7 +68,6 @@ The project with the highest community love earns the People’s Choice Spotligh
 | Onboarding Software | A customizable recruitment and access platform leveraging azd templates to streamline candidate screening and enable healthy workplace culture. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/36) |
 | Deepmine-Sentinel | An AI safety assistant built on a chat template for providing miners with real-time underground safety guidance and accident prevention monitoring. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/29) |
 | Climate Action Assistant | An intelligent AI-powered climate action coach that delivers personalized, location-aware, and gamified environmental advice to help users reduce their carbon footprint effectively. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/48) |
-| AI Career Navigator - Your Personal AI Career Coach | An AI-powered career coaching application that analyzes resumes, identifies skill gaps, and guides developers to targeted job opportunities, interview readiness, and skill growth. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/47) |
 | AI FODMAP Food Helper | A friendly AI shopping companion that provides instant FODMAP ratings and tailored IBS-safe grocery advice, making the low FODMAP diet accessible and stress-free. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/46) |
 | healthy-living advisor | A health-focused AI chat app offering personalized, evidence-based, and accessible wellness, nutrition, and exercise advice. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/54) |
 | FitMind AI | An AI-powered wellness assistant that delivers personalized workout plans, healthy diet advice, and mental well-being tips for physical and mental health improvement. | [View project](https://github.com/Azure-Samples/JS-AI-Build-a-thon/issues/44) |
@@ -88,7 +90,7 @@ The project with the highest community love earns the People’s Choice Spotligh
 
 ---
 
-## 🤝 Get help 
+## 🤝 Community 
 
 To connect with other developers, join us in the Azure AI Community Discord _(#js-ai-build-a-thon)_.
 
