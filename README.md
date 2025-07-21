@@ -45,15 +45,13 @@ Unique Hands-On Quests for JS/ TS Developers to Build AI Apps on Azure AI Foundr
 ---
 
 ## JS AI Build-a-thon (June 2025)
-Developers from all over the world joined us in the **AI June Jams with JavaScript** - turning their real-world ideas turn into ready AI apps, through this hands-on learning experience!
+Developers from all over the world joined us in the **AI June Jams with JavaScript** - turning their real-world ideas into ready AI apps, through this hands-on learning experience!
 
 ### 🚀 People’s Choice Spotlight Project: AI Career Navigator - Your Personal AI Career Coach
 
 By [Aryanjstar](https://github.com/Aryanjstar)
 
-
 https://github.com/user-attachments/assets/0bde9089-050a-40d8-8eef-a9bfd92d6e49
-
 
 
 ### Participating Projects
